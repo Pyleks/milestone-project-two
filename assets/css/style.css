@@ -1,0 +1,23 @@
+/*Navigation Bar*/
+.nav-text {
+    text-decoration: none !important;
+    padding: 10px;
+
+}
+.navigation_bar_size {
+    height: 60px;
+}
+
+.navigation_elements {
+    text-align: right;
+    font-size: 30px;
+}
+
+/*Headline styling*/
+.h1-size {
+    font-size: 70px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+/*Form styling*/
