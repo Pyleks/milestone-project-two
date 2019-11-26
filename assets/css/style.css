@@ -64,6 +64,12 @@ time, mark, audio, video {
     font-size: 2rem;
 }
 
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
 /************ Footer ************/
 .fixed-bottom {
     padding-bottom: 10px;
