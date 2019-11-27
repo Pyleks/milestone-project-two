@@ -22,7 +22,9 @@ time, mark, audio, video {
 }
 
 /************ Global Font ************/
-
+body {
+    font-family: 'Acme', sans-serif;
+}
 
 /************ Navigation Bar ************/
 .remove_decoration {
@@ -34,7 +36,7 @@ time, mark, audio, video {
 }
 
 .nav_link_style {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     padding: 10% 1% 3% 3%;
 }
 
@@ -42,7 +44,7 @@ time, mark, audio, video {
 /************ Header ************/
 
 .h1_size {
-    font-size: 4.5rem;
+    font-size: 5rem;
 }
 .h1_placement {
     padding-top: 15%;
@@ -58,6 +60,7 @@ time, mark, audio, video {
 .custom_button {
     margin-top: 10%;
     padding: 3% 10% 3% 10%;
+    border-radius: 10%;
 }
 
 .h3_size {
