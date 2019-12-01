@@ -1,3 +1,3 @@
-# Name of the great Game
+# BlockWorm Adventures
 
 Repo: https://github.com/Pyleks/milestone-project-two.git
