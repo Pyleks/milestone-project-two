@@ -1,4 +1,4 @@
-var example = ['Experiment with colors', 'Walls do not hurt', 'Ready yet???'];
+var example = ['Experiment with colors', 'Walls do not hurt', 'Ready yet???', 'Remember to eat the apples'];
 
 textSequence(0);
 function textSequence(i) {
