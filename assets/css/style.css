@@ -21,24 +21,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /************ Hero Image ************/
-/*.img-placement {*/
-/*    height: 100vh;*/
-/*    background: url('../images/Test2_img.jpg') no-repeat bottom right fixed;*/
-/*    -webkit-background-size: cover;*/
-/*    -moz-background-size: cover;*/
-/*    -o-background-size: cover;*/
 
-
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: left;*/
-/*    text-align: left;*/
-
-/*    position: relative;*/
-/*    padding-bottom: 50px;*/
-/*    padding-left: 50px;*/
-
-/*}*/
 
 /************ Global Font ************/
 body {
@@ -95,6 +78,10 @@ body {
     margin-bottom: 10px; /* Added */
 }
 
+.car_text_style {
+    text-align: center;
+    font-size: 2rem;
+}
 /************ Footer ************/
 .fixed-bottom {
     padding-bottom: 10px;
