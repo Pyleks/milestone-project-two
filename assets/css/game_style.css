@@ -75,6 +75,10 @@ body {
     display: inline;
 }
 
+.nickname_config {
+    display: inline;
+}
+
 
 /************ Main Body ************/
 .form_placement {
