@@ -32,20 +32,41 @@
     </div>
 </section>
 
-<section class="score">
+<section class="player_info">
     <div class="container">
-        <div class="col">
-            <h3 class="text-left">Scenes</h3>
-        </div>
-        <div class="col">
-            <div class="nickname_box"></div>
-        </div>
-        <div class="col">
-            <div class="score_box"></div>
+        <div class="row">
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3 remove_offset offset-2">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="nickname_config">Nickname: </p>
+                        <p class="nickname_config name_size nickname_update">SuperCharlie</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3 remove_offset offset-1">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="display_config">Score: </p>
+                        <p class="display_config score_update">5</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
 
+<div class="the_game">
+    <div class="container">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-2 remove_margin">
+            <canvas id="canvas" width="625" height="625"></canvas>
+        </div>
+    </div>
+</div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/snake.js"></script>
 </body>
 </html>

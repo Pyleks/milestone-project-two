@@ -21,7 +21,10 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /************ Hero Image ************/
+/*body {*/
+/*    background: url("../images/color-mix.jpg");*/
 
+/*}*/
 
 /************ Global Font ************/
 body {

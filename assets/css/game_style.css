@@ -57,18 +57,22 @@ body {
 
 /************ Nickname and Score box ************/
 .nickname_box {
-    width: 250px;
+    /*width: 200px;*/
     border: 1px solid black;
     padding: 20px;
     /*margin: 20px;*/
 }
 
 .score_box {
-    width: 250px;
+    /*width: 200px;*/
     border: 1px solid black;
     padding: 20px;
     /*margin: 20px;*/
 
+}
+
+.display_config {
+    display: inline;
 }
 
 
@@ -121,3 +125,71 @@ body {
 /************ Footer ************/
 .fixed-bottom {
     padding-bottom: 10px;
+}
+
+@media (max-width: 360px) {
+    .h1_size {
+        font-size: 2rem;
+        padding-top: 20%;
+    }
+
+    .nav_link_style {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .input_body {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .center-form {
+        width: 16rem;
+    }
+
+    .player_name {
+        width: 100%;
+    }
+
+    .media-form {
+        width: 100%;
+    }
+    canvas {
+        width: 80%;
+    }
+    .the_game {
+        text-align: center;
+    }
+    .remove_margin {
+        margin: 0;
+    }
+    .display_config {
+        font-size: 1.3rem;
+        padding: 0;
+    }
+    .nickname_config {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .name_size {
+        font-size: 1.3rem;
+    }
+    .player_info {
+        margin: 0 !important;
+    }
+    .remove_offset {
+        margin: 0;
+        margin-left: 5.5rem;
+
+    }
+    .card-body {
+        padding: 1rem 1rem 0 1rem;
+        text-align: center;
+    }
+    .card {
+        border: none;
+    }
+}
