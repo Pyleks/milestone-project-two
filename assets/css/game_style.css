@@ -104,9 +104,9 @@ body {
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 
 .car_text_style {
@@ -144,26 +144,10 @@ body {
         font-size: 1.5rem;
     }
 
-    .card-title {
-        font-size: 1rem;
-    }
-
-    .input_body {
-        padding-top: 5%;
-        padding-bottom: 10%;
-    }
-
-    .center-form {
-        width: 16rem;
-    }
-
     .player_name {
         width: 100%;
     }
 
-    .media-form {
-        width: 100%;
-    }
     canvas {
         width: 80%;
     }
@@ -188,8 +172,7 @@ body {
         margin: 0 !important;
     }
     .remove_offset {
-        margin: 0;
-        margin-left: 5.5rem;
+        margin: 0 0 0 5.5rem;
 
     }
     .card-body {
