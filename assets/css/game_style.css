@@ -45,7 +45,6 @@ body {
 .icon_style {
     padding: 2% 0 0 0;
 }
-
 /************ Header ************/
 
 .h1_size {
@@ -54,19 +53,7 @@ body {
 .h1_placement {
     padding-top: 5%;
 }
-
 /************ Nickname and Score box ************/
-.nickname_box {
-    border: 1px solid black;
-    padding: 20px;
-}
-
-.score_box {
-    border: 1px solid black;
-    padding: 20px;
-
-}
-
 .display_config {
     display: inline;
 }
@@ -74,46 +61,79 @@ body {
 .nickname_config {
     display: inline;
 }
+.card {
+    border: none;
+}
+
+.update_nick {
+    font-size: 1.5rem;
+}
 
 /************ Main Body ************/
-.form_placement {
-    display: flex;
-    justify-content: center;
-    padding: 5% 5% 4% 5%;
-}
-
-.custom_button {
-    margin-top: 10%;
-    padding: 3% 10% 3% 10%;
-    border-radius: 10%;
-}
-
-.feedback_button {
-    margin-top: 5%;
-    padding: 2% 5% 2% 5%;
-    border-radius: 10%;
-}
-
-.h3_size {
-    font-size: 2rem;
-}
-
 .card {
     margin: 0 0 10px 0;
     float: none;
 }
 
-.car_text_style {
-    text-align: center;
-    font-size: 2rem;
-}
 .margin_adder {
     margin-left: 20%;
 }
 
+p {
+    font-size: 1.5rem;
+}
 /************ Footer ************/
-.fixed-bottom {
-    padding-bottom: 10px;
+@media (max-width: 1024px) {
+    .h1_size {
+        font-size: 4rem;
+        padding-top: 10%;
+    }
+
+    .nav_link_style {
+        font-size: 2.5rem;
+    }
+    .display_config {
+        font-size: 1.8rem;
+    }
+    canvas {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .h1_size {
+        font-size: 4rem;
+        padding-top: 20%;
+    }
+
+    .nav_link_style {
+        font-size: 2.5rem;
+    }
+    .display_config {
+        font-size: 1.8rem;
+    }
+    canvas {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .h1_size {
+        font-size: 2rem;
+        padding-top: 20%;
+    }
+
+    .nav_link_style {
+        font-size: 1.5rem;
+    }
+    .display_config {
+        font-size: 1.3rem;
+    }
+    canvas {
+        width: 80%;
+    }
 }
 
 @media (max-width: 360px) {
@@ -125,43 +145,10 @@ body {
     .nav_link_style {
         font-size: 1.5rem;
     }
-
-    .player_name {
-        width: 100%;
-    }
-
-    canvas {
-        width: 80%;
-    }
-    .the_game {
-        text-align: center;
-    }
-    .remove_margin {
-        margin: 0;
-    }
     .display_config {
         font-size: 1.3rem;
-        padding: 0;
     }
-    .nickname_config {
-        font-size: 1rem;
-        padding: 0;
-    }
-    .name_size {
-        font-size: 1.3rem;
-    }
-    .player_info {
-        margin: 0 !important;
-    }
-    .remove_offset {
-        margin: 0 0 0 5.5rem;
-
-    }
-    .card-body {
-        padding: 1rem 1rem 0 1rem;
-        text-align: center;
-    }
-    .card {
-        border: none;
+    canvas {
+        width: 80%;
     }
 }
