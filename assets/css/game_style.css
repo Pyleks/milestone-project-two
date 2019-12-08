@@ -75,7 +75,6 @@ body {
     display: inline;
 }
 
-
 /************ Main Body ************/
 .form_placement {
     display: flex;
@@ -100,9 +99,8 @@ body {
 }
 
 .card {
-    margin: 0 auto;
+    margin: 0 0 10px 0;
     float: none;
-    margin-bottom: 10px;
 }
 
 .car_text_style {
@@ -112,19 +110,7 @@ body {
 .margin_adder {
     margin-left: 20%;
 }
-/************ Forms ************/
-.center-form {
-    width: 50rem;
-}
-.nickname-form {
-    width: 25rem;
-}
 
-.center-block {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
 /************ Footer ************/
 .fixed-bottom {
     padding-bottom: 10px;
