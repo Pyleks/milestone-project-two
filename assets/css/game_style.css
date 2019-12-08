@@ -57,17 +57,13 @@ body {
 
 /************ Nickname and Score box ************/
 .nickname_box {
-    /*width: 200px;*/
     border: 1px solid black;
     padding: 20px;
-    /*margin: 20px;*/
 }
 
 .score_box {
-    /*width: 200px;*/
     border: 1px solid black;
     padding: 20px;
-    /*margin: 20px;*/
 
 }
 
