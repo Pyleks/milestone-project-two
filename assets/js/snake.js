@@ -1,90 +1,146 @@
-var canvas, ctx;
-window.onload = function() {
-    canvas = document.getElementById("canvas");
-    ctx = canvas.getContext("2d");
-    document.addEventListener("keydown", keyDownEvent);
-    // render X times per second
-    var x = 8;
-    setInterval(draw, 1000 / x);
+const cvs = document.getElementById('canvas');
+const ctx = cvs.getContext("2d");
+
+// Create the unit
+const box = 35;
+
+// Load images
+
+const ground = new Image();
+ground.src = "assets/images/grounmapfinal.png";
+// ground.src = "assets/images/snake_board.jpg";
+
+const foodImg = new Image();
+// foodImg.src = "assets/images/AppleTest.png";
+foodImg.src = "assets/images/Apple.png";
+
+const GreenfoodImg = new Image();
+// foodImg.src = "assets/images/AppleTest.png";
+GreenfoodImg.src = "assets/images/grapes.png";
+
+
+// load
+
+let snake = [];
+snake[0] = {
+    x : 9 * box,
+    y : 10 * box
 };
-// game world
-var gridSize = (tileSize = 25); // 20 x 20 = 400
-var nextX = (nextY = 0);
-// snake
-var defaultTailSize = 3;
-var tailSize = defaultTailSize;
-var snakeTrail = [];
-var snakeX = (snakeY = 10);
-// apple
-var appleX = (appleY = 15);
-// draw
-function draw() {
-    // move snake in next pos
-    snakeX += nextX;
-    snakeY += nextY;
-    // snake over game world?
-    if (snakeX < 0) {
-        snakeX = gridSize - 1;
+
+// Create the food
+
+let foodOne = {
+    x : Math.floor(Math.random()*12+1) * box,
+    y : Math.floor(Math.random()*4+3) * box,
+};
+
+let foodTwo = {
+    x : Math.floor(Math.random()*17+1) * box,
+    y : Math.floor(Math.random()*15+3) * box,
+};
+
+// Create the score var
+
+let score = 0;
+//Control the snake
+
+let d;
+document.addEventListener("keydown", direction);
+
+function direction(event){
+    if(event.keyCode == 37 && d != "RIGHT"){
+        d = "LEFT"
+    }else if (event.keyCode == 38 && d != "DOWN"){
+        d = "UP"
+
+    }else if (event.keyCode == 39 && d != "LEFT"){
+        d = "RIGHT"
+
+    }else if (event.keyCode == 40 && d != "UP"){
+        d = "DOWN"
     }
-    if (snakeX > gridSize - 1) {
-        snakeX = 0;
-    }
-    if (snakeY < 0) {
-        snakeY = gridSize - 1;
-    }
-    if (snakeY > gridSize - 1) {
-        snakeY = 0;
-    }
-    //snake bite apple?
-    if (snakeX == appleX && snakeY == appleY) {
-        tailSize++;
-        appleX = Math.floor(Math.random() * gridSize);
-        appleY = Math.floor(Math.random() * gridSize);
-    }
-    //paint background
-    ctx.fillStyle = "black";
-    ctx.fillRect(0,0 , canvas.width, canvas.height);
-    // paint snake
-    ctx.fillStyle = "green";
-    for (var i = 0; i < snakeTrail.length; i++) {
-        ctx.fillRect(
-            snakeTrail[i].x * tileSize,
-            snakeTrail[i].y * tileSize,
-            tileSize,
-            tileSize
-        );
-        //snake bites it's tail?
-        if (snakeTrail[i].x == snakeX && snakeTrail[i].y == snakeY) {
-            tailSize = defaultTailSize;
+}
+
+// Check Collision function
+function collision(head, array){
+    for(let i = 0; i < array.length; i++){
+        if(head.x == array[i].x && head.y == array[i].y) {
+            return true;
         }
     }
-    // paint apple
-    ctx.fillStyle = "red";
-    ctx.fillRect(appleX * tileSize, appleY * tileSize, tileSize, tileSize);
-    //set snake trail
-    snakeTrail.push({ x: snakeX, y: snakeY });
-    while (snakeTrail.length > tailSize) {
-        snakeTrail.shift();
-    }
+    return false;
 }
-// input
-function keyDownEvent(e) {
-    switch (e.keyCode) {
-        case 37:
-            nextX = -1;
-            nextY = 0;
-            break;
-        case 38:
-            nextX = 0;
-            nextY = -1;
-            break;
-        case 39:
-            nextX = 1;
-            nextY = 0;
-            break;
-        case 40:
-            nextX = 0;
-            nextY = 1;
-            break;
+
+// Draw everything to canavas
+
+function draw() {
+    ctx.drawImage(ground, 0, 0);
+    for(let i = 0; i < snake.length; i++ ){
+        ctx.fillStyle = (i == 0)? "green" : "blue";
+        ctx.fillRect(snake[i].x,snake[i].y,box,box);
+
+        ctx.strokeStyle = "red";
+        ctx.strokeRect(snake[i].x,snake[i].y,box,box);
     }
+
+    ctx.drawImage(foodImg, foodOne.x, foodOne.y);
+    ctx.drawImage(GreenfoodImg, foodTwo.x, foodTwo.y);
+    // old head position
+    let snakeX = snake[0].x;
+    let snakeY = snake[0].y;
+
+
+    // Which Direction
+    if(d == "LEFT") snakeX -= box;
+    if(d == "UP") snakeY -= box;
+    if(d == "RIGHT") snakeX += box;
+    if(d == "DOWN") snakeY += box;
+
+
+
+    // if the snake eats the food
+    if(snakeX == foodOne.x && snakeY == foodOne.y){
+        score++;
+        foodOne = {
+            x: Math.floor(Math.random() * 12 + 1) * box,
+            y: Math.floor(Math.random() * 8 + 3) * box
+
+        }} else if(snakeX == foodTwo.x && snakeY == foodTwo.y){
+        score++;
+        foodTwo = {
+            x: Math.floor(Math.random() * 9 + 1) * box,
+            y: Math.floor(Math.random() * 5 + 3) * box
+
+        }
+
+
+        // we don't remove the tail
+    }else{
+        // remove the tail
+        snake.pop();
+    }
+
+
+    // add new Head
+    let newHead = {
+        x : snakeX,
+        y : snakeY
+    };
+
+    // Game Over
+    if(snakeX < box || snakeX > 17 * box || snakeY < box || snakeY > 17 * box || collision(newHead, snake)){
+        clearInterval(game);
+    }
+
+    snake.unshift(newHead);
+
+    ctx.fillStyle = "white";
+    ctx.font = "45px Changa one";
+    ctx.fillText(score, 9.5*box, 0.9*box);
 }
+
+// Call draw function every 100ms
+
+
+
+let game = setInterval(draw,150);
