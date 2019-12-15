@@ -124,6 +124,10 @@ a:hover {
     text-align: center;
     display: inline;
 }
+
+.btn-secondary {
+    background-color: darkgreen !important;
+}
 /************ Forms ************/
 .center-form {
     width: 50rem;
