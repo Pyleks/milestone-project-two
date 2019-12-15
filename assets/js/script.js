@@ -4,6 +4,13 @@ $(document).ready(function(){
         localStorage.setItem("favoriteName", myName);
     });
 
+    $("a").mouseover(function(){
+        $(this).addClass("target_border")
+    });
+    $("a").mouseleave(function(){
+        $(this).removeClass("target_border")
+    });
+
 
 var example = ['Experiment with colors', 'Walls do hurt', 'Ready yet???', 'Remember to eat the apples'];
 
