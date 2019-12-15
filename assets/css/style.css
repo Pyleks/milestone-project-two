@@ -20,11 +20,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/************ Hero Image ************/
-/*body {*/
-/*    background: url("../images/color-mix.jpg");*/
 
-/*}*/
 
 /************ Global Font ************/
 body {
@@ -52,7 +48,6 @@ body {
     font-size: 2.5rem;
     padding: 0 1% 0 1%;
     color: #000000;
-    /*padding: 10% 1% 3% 3%;*/
 }
 a:hover {
     color: darkgreen;
@@ -109,9 +104,9 @@ a:hover {
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 
 .car_text_style {
@@ -138,9 +133,6 @@ a:hover {
 .center-form {
     width: 50rem;
 }
-/*.nickname-form {*/
-/*    width: 25rem;*/
-/*}*/
 
 .center-block {
     display: block;
