@@ -50,7 +50,7 @@ body {
 
 .nav_link_style {
     font-size: 2.5rem;
-    padding: 0 0 0 1%;
+    padding: 0 1% 0 1%;
     color: #000000;
     /*padding: 10% 1% 3% 3%;*/
 }
@@ -77,6 +77,12 @@ a:hover {
 .heading_border {
     border: 6px solid !important;
     color: darkgreen;
+}
+
+.img_placement {
+    position: relative;
+    text-align: center;
+
 }
 
 /************ Main Body ************/
