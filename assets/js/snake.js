@@ -30,7 +30,7 @@ snake[0] = {
 // Create the food
 
 let foodOne = {
-    x : Math.floor(Math.random()*12+1) * box,
+    x : Math.floor(Math.random()*12+1) * box,6
     y : Math.floor(Math.random()*4+3) * box,
 };
 
