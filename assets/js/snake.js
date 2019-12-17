@@ -12,7 +12,7 @@ ground.src = "assets/images/grounmapfinal.png";
 
 const foodImg = new Image();
 // foodImg.src = "assets/images/AppleTest.png";
-foodImg.src = "assets/images/Apple.png";
+foodImg.src = "assets/images/apple.png";
 
 const GreenfoodImg = new Image();
 // foodImg.src = "assets/images/AppleTest.png";
