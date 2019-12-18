@@ -10,6 +10,10 @@ const ground = new Image();
 ground.src = "assets/images/grounmapfinal.png";
 // ground.src = "assets/images/snake_board.jpg";
 
+const gameOver = new Image();
+gameOver.src = "assets/images/vintage3.jpg";
+// ground.src = "assets/images/snake_board.jpg";
+
 const foodImg = new Image();
 // foodImg.src = "assets/images/AppleTest.png";
 foodImg.src = "assets/images/Apple.png";
@@ -61,6 +65,13 @@ function direction(event){
     }
 }
 
+// Game Over function
+function gameOverDraw() {
+    ctx.drawImage(gameOver, 0, 0);
+    gameOverDraw()
+
+}
+
 // Check Collision function
 function collision(head, array){
     for(let i = 0; i < array.length; i++){
@@ -72,7 +83,6 @@ function collision(head, array){
 }
 
 // Draw everything to canavas
-
 function draw() {
     ctx.drawImage(ground, 0, 0);
     for(let i = 0; i < snake.length; i++ ){
@@ -129,7 +139,11 @@ function draw() {
 
     // Game Over
     if(snakeX < box || snakeX > 17 * box || snakeY < box || snakeY > 17 * box || collision(newHead, snake)){
-        clearInterval(game);
+        // ctx.fillstyle = "red";
+        // ctx.font = "65px Changa one";
+        // ctx.fillText("GAME OVER", 4*box, 9*box);
+        // clearInterval(game);
+        gameOverDraw();
     }
 
     snake.unshift(newHead);
@@ -140,7 +154,6 @@ function draw() {
 }
 
 // Call draw function every 100ms
-
 
 
 let game = setInterval(draw,150);
