@@ -11,7 +11,7 @@ ground.src = "assets/images/grounmapfinal.png";
 // ground.src = "assets/images/snake_board.jpg";
 
 const gameOver = new Image();
-gameOver.src = "assets/images/vintage3.jpg";
+gameOver.src = "assets/images/gameoverImg.png";
 // ground.src = "assets/images/snake_board.jpg";
 
 const foodImg = new Image();
@@ -45,7 +45,7 @@ let foodTwo = {
 
 // Create the score var
 
-let score = 0;
+let score = [];
 //Control the snake
 
 let d;
@@ -68,6 +68,9 @@ function direction(event){
 // Game Over function
 function gameOverDraw() {
     ctx.drawImage(gameOver, 0, 0);
+    ctx.fillStyle = "white";
+    ctx.font = "45px Changa one";
+    ctx.fillText(score, 13*box, 10*box);
     gameOverDraw()
 
 }
@@ -139,10 +142,10 @@ function draw() {
 
     // Game Over
     if(snakeX < box || snakeX > 17 * box || snakeY < box || snakeY > 17 * box || collision(newHead, snake)){
-        // ctx.fillstyle = "red";
-        // ctx.font = "65px Changa one";
-        // ctx.fillText("GAME OVER", 4*box, 9*box);
-        // clearInterval(game);
+        ctx.fillstyle = "red";
+        ctx.font = "65px Changa one";
+        ctx.fillText("GAME OVER", 4*box, 9*box);
+        clearInterval(game);
         gameOverDraw();
     }
 
