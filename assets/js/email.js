@@ -10,10 +10,14 @@ function sendMail(contactForm) {
         .then(
             function(response) {
                 console.log("SUCCESS", response);
+                $(".feedback_button").text("Thank you");
+                $(".feedback_button").removeClass("btn-secondary");
+                $(".feedback_button").addClass("red_button");
             },
             function(error) {
                 console.log("FAILED", error);
             }
         );
     return false;  // To block from loading a new page
+
 }

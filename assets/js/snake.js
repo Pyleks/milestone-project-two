@@ -31,6 +31,9 @@ snake[0] = {
     y : 10 * box
 };
 
+//Import Username
+let userName = (localStorage.getItem("favoriteName"));
+
 // Create the food
 
 let foodOne = {
@@ -45,7 +48,7 @@ let foodTwo = {
 
 // Create the score var
 
-let score = [];
+let score = 0;
 //Control the snake
 
 let d;
@@ -71,7 +74,10 @@ function gameOverDraw() {
     ctx.fillStyle = "white";
     ctx.font = "45px Changa one";
     ctx.fillText(score, 13*box, 10*box);
-    gameOverDraw()
+    ctx.fillText(userName, 3.8*box, 10*box);
+    gameOverDraw();
+    // draw();
+
 
 }
 

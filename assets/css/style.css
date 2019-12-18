@@ -34,7 +34,9 @@ body {
     color: darkgreen;
 }
 
-
+.red_button {
+    background-color: #ff0000 !important;
+}
 /************ Navigation Bar ************/
 .remove_decoration {
     text-decoration: none !important;
