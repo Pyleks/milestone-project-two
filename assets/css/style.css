@@ -131,6 +131,10 @@ a:hover {
 .btn-secondary {
     background-color: darkgreen !important;
 }
+
+#playButton {
+    width: 30%;
+}
 /************ Forms ************/
 .center-form {
     width: 50rem;
