@@ -16,7 +16,7 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 
 ## Technologies
 
-| Languages  | Useage |
+| Languages  | Usage |
 | ------------- | ------------- |
 | HTML  | Create the foundation of the website  |
 | CSS  | Applying styling and mobile size format  |
@@ -24,6 +24,18 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 | FontAwesome  | Importing website icons  |
 | jQuery  | Apply interactivity and data storage  |
 | JavaScript  | Add logic to the website.  |
+
+## Graphic design tools
+| Tools  | Usage |
+| ------------- | ------------- |
+| Krita  | For designing all graphic content  |
+| Paint 3D  | Pre-work on graphic content  |
+| MS Paint  | Rough graphic content  |
+
+
+
+
+
 
 
 
