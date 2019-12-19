@@ -33,6 +33,13 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 | Paint 3D  | Pre-work on graphic content  |
 | MS Paint  | Rough graphic content  |
 
+## API
+For feedback I am using
+[mailJS](https://www.emailjs.com/)
+
+## Demo
+Try the game here: https://pyleks.github.io/milestone-project-two/
+
 
 
 
