@@ -1,3 +1,9 @@
+// Load User Data
+$(document).ready(function(){
+    $(".update_nick").text(localStorage.getItem("favoriteName"));
+
+});
+
 const cvs = document.getElementById('canvas');
 const ctx = cvs.getContext("2d");
 

@@ -1,10 +1,8 @@
 // Stores the player nickname in localstoreage to be used in the game
 $(document).ready(function(){
-    $(".nav_link_style").mouseover(function(){
-        $(this).addClass("target_border")
-    });
-    $(".nav_link_style").mouseleave(function(){
-        $(this).removeClass("target_border")
+        $("#playButton").on("click", function(){
+        let myName = $("input").val();
+        localStorage.setItem("favoriteName", myName);
     });
 
     // Rotates through an array to display different rules to users on landing page.
@@ -22,7 +20,5 @@ $(document).ready(function(){
         } else if (example.length == i) { // Loop
             textSequence(0);
         }
+
 }});
-
-
-
