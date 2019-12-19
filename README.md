@@ -12,9 +12,20 @@ but also assist with further development with a built in feedback form API.
 
 I also encourage the visitors to visit the code itself to make their feedback even more relevant.
 
-Strong but not overwhelming colors have been chosen to emphasis on the important features.
+Strong but not overwhelming colors have been chosen to emphasis on the features.
 
- 
+## Technologies
+
+| Languages  | Useage |
+| ------------- | ------------- |
+| HTML  | Create the foundation of the website  |
+| CSS  | Applying styling and mobile size format  |
+| Bootstrap  | Add correct styling and grid  |
+| FontAwesome  | Importing website icons  |
+| jQuery  | Apply interactivity and data storage  |
+| JavaScript  | Add logic to the website.  |
+
+
 
 Repo: https://github.com/Pyleks/milestone-project-two.git
 
