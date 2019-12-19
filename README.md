@@ -24,6 +24,7 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 | FontAwesome  | Importing website icons  |
 | jQuery  | Apply interactivity and data storage  |
 | JavaScript  | Add logic to the website.  |
+| Google Fonts  | For all fonts on website  |
 
 ## Graphic design tools
 | Tools  | Usage |
