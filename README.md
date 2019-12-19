@@ -26,6 +26,7 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 | JavaScript  | Add logic to the website.  |
 | Google Fonts  | For all fonts on website  |
 
+
 ## Graphic design tools
 | Tools  | Usage |
 | ------------- | ------------- |
@@ -37,9 +38,12 @@ Strong but not overwhelming colors have been chosen to emphasis on the features.
 For feedback I am using
 [mailJS](https://www.emailjs.com/)
 
+## Wireframe tools
+Wireframe tool is
+[Balsamiq](https://balsamiq.com/)
+
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
-
 
 
 
