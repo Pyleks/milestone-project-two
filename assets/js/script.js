@@ -4,10 +4,10 @@ $(document).ready(function(){
         localStorage.setItem("favoriteName", myName);
     });
 
-    $("a").mouseover(function(){
+    $(".nav_link_style").mouseover(function(){
         $(this).addClass("target_border")
     });
-    $("a").mouseleave(function(){
+    $(".nav_link_style").mouseleave(function(){
         $(this).removeClass("target_border")
     });
 
