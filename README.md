@@ -45,8 +45,10 @@ Wireframe tool is
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
 
-
-
+## Features
+Blockworm Adventure is a game designed to provide the visitor with 
+a updated version of the old snake game, and add some new unexpected
+twists to introduce a fresh experience.
 
 
 
