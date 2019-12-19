@@ -1,6 +1,5 @@
 // Stores the player nickname in localstoreage to be used in the game
 $(document).ready(function(){
-        $("#playButton").on("click", function(){
         let myName = $("input").val();
         localStorage.setItem("favoriteName", myName);
     });
@@ -21,4 +20,6 @@ $(document).ready(function(){
             textSequence(0);
         }
 
-}});
+    }
+
+});
