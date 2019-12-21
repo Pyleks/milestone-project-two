@@ -3,9 +3,9 @@ ___
 
 Milestone Project 2 - Interactive Frontend Development - Code Institute
 
-Blockworm Adventure is a game designed to provide the visitor with 
-a updated version of the old but loved snake game, and add some new unexpected
-twists to introduce a fresh experience that have yet to be experienced.
+Blockworm Adventure is a game designed to provide a updated version of the old but loved snake
+game, with better graphics and some new unexpected twists to experience the game again with 
+
 
 ## UX
 The website/game is designed in a simplistic manager so the visitors can easily try out the game
@@ -13,7 +13,7 @@ but also assist with further development with a built in feedback form API.
 
 I also encourage the visitors to visit the code itself to make their feedback even more relevant.
 
-Strong but not overwhelming colors have been chosen to emphasis on the features.
+Strong but not overwhelming colors have been chosen to emphasis on the simplicity.
 
 ## Features
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.

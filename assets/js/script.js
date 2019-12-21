@@ -2,7 +2,7 @@
 $(document).ready(function(){
         let myName = $("input").val();
         localStorage.setItem("favoriteName", myName);
-    });
+
 
     // Rotates through an array to display different rules to users on landing page.
     let example = ['Experiment with colors', 'Walls do hurt', 'Ready yet???', 'Remember to eat the apples'];
@@ -21,5 +21,4 @@ $(document).ready(function(){
         }
 
     }
-
 });
