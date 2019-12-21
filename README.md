@@ -29,7 +29,7 @@ they get to see their highscore on a separate window.
 - Feature 4: We welcome our players to provide feedback by visiting our feedback
 section of the website, writing their thoughts on the game.   
 
-####Features Left to Implement
+#### Features Left to Implement
 
 - Adding multiple maps.
 - Including randomized fruit types and events.
@@ -40,10 +40,10 @@ section of the website, writing their thoughts on the game.
 | ------------- | ------------- |
 | HTML  | Create the foundation of the website  |
 | CSS  | Applying styling and mobile size format  |
-| Bootstrap  | Add correct styling and grid  |
+| Bootstrap  | Add styling and grid  |
 | FontAwesome  | Importing website icons  |
 | jQuery  | Apply interactivity and data storage  |
-| JavaScript  | Add logic to the website.  |
+| JavaScript  | Add logic to the website and the game  |
 | Google Fonts  | For all fonts on website  |
 
 
