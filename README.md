@@ -3,8 +3,9 @@ ___
 
 Milestone Project 2 - Interactive Frontend Development - Code Institute
 
-Blockworm Adventure is based on our beloved Nokia's Snake game with some more twists and turns
-but most of all, upgraded graphics.
+Blockworm Adventure is a game designed to provide the visitor with 
+a updated version of the old but loved snake game, and add some new unexpected
+twists to introduce a fresh experience that have yet to be experienced.
 
 ## UX
 The website/game is designed in a simplistic manager so the visitors can easily try out the game
@@ -15,10 +16,6 @@ I also encourage the visitors to visit the code itself to make their feedback ev
 Strong but not overwhelming colors have been chosen to emphasis on the features.
 
 ## Features
-Blockworm Adventure is a game designed to provide the visitor with 
-a updated version of the old snake game, and add some new unexpected
-twists to introduce a fresh experience.
-
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
 
 - Feature 2: The games comes with multiple "food types", providing different twists and points each type.
