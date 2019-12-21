@@ -14,6 +14,26 @@ I also encourage the visitors to visit the code itself to make their feedback ev
 
 Strong but not overwhelming colors have been chosen to emphasis on the features.
 
+## Features
+Blockworm Adventure is a game designed to provide the visitor with 
+a updated version of the old snake game, and add some new unexpected
+twists to introduce a fresh experience.
+
+- Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
+
+- Feature 2: The games comes with multiple "food types", providing different twists and points each type.
+
+- Feature 3: Once the player have finished the game by accidentally hitting the wall or the body of the snake, 
+they get to see their highscore on a separate window.
+
+- Feature 4: We welcome our players to provide feedback by visiting our feedback
+section of the website, writing their thoughts on the game.   
+
+####Features Left to Implement
+
+- Adding multiple maps.
+- Including randomized fruit types and events.
+
 ## Technologies
 
 | Languages  | Usage |
@@ -44,12 +64,6 @@ Wireframe tool is
 
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
-
-## Features
-Blockworm Adventure is a game designed to provide the visitor with 
-a updated version of the old snake game, and add some new unexpected
-twists to introduce a fresh experience.
-
 
 
 
