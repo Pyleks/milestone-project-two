@@ -58,6 +58,10 @@ a:hover {
     padding: 2% 0 0 0;
 }
 
+.navigation-bar {
+    background-color: #4169e1;
+}
+
 /************ Header ************/
 
 .h1_size {
@@ -147,7 +151,17 @@ a:hover {
 }
 
 /************ Compatibility Icons ************/
-
+.compatible-headline {
+    padding: 2rem 0 3rem 0;
+    font-size: 2rem;
+}
+.device-text {
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+}
+.plus-icons {
+    color: darkgreen;
+}
 
 
 
@@ -155,6 +169,22 @@ a:hover {
 .fixed-bottom {
     padding-bottom: 10px;
 }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: currentColor;
+    text-align: center;
+
+}
+
+.footer-text-color {
+    color: #ffffff;
+}
+
 
 /************ Media Queries ************/
 @media (max-width: 1200px) {
@@ -217,7 +247,6 @@ a:hover {
     .card-title {
         font-size: 1rem;
     }
-
 
     .input_body {
         padding-top: 10%;
