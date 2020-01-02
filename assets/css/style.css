@@ -261,6 +261,9 @@ a:hover {
     .media-form {
         width: 80%;
     }
+    .compatible-container {
+        display: none;
+    }
 
 }
 @media (max-width: 360px) {
@@ -292,5 +295,8 @@ a:hover {
 
     .media-form {
         width: 100%;
+    }
+    .compatible-container {
+        display: none;
     }
 }
