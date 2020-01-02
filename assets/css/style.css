@@ -68,7 +68,7 @@ a:hover {
     font-size: 5rem;
 }
 .h1_placement {
-    padding-top: 15%;
+    padding-top: 13%;
 }
 
 .h1_feedback_placement {
@@ -83,6 +83,21 @@ a:hover {
 .img_placement {
     position: relative;
     text-align: center;
+
+}
+/************ Nickname Input ************/
+#nickName {
+    font-size: 1.5rem;
+}
+/************ Rules Carousel ************/
+.rules_body {
+    padding: 3rem 0 0 0;
+}
+.color_blue {
+    background-color: #6495ed;
+}
+/************ TEMP category ************/
+.compatible-headline {
 
 }
 
@@ -118,6 +133,7 @@ a:hover {
 .car_text_style {
     text-align: center;
     font-size: 2rem;
+    color: #006400;
 }
 
 .form-style {
@@ -138,6 +154,7 @@ a:hover {
 
 #playButton {
     width: 25%;
+    font-size: 1.5rem;
 }
 /************ Forms ************/
 .center-form {
@@ -152,7 +169,7 @@ a:hover {
 
 /************ Compatibility Icons ************/
 .compatible-headline {
-    padding: 2rem 0 3rem 0;
+    padding: 5rem 0 3rem 0;
     font-size: 2rem;
 }
 .device-text {
