@@ -1,10 +1,14 @@
 // Stores the player nickname in localstoreage to be used in the game
 $(document).ready(function(){
-    $("#playButton").click(function() {
+    ($("#playButton").click(function() {
         let myName = $("input").val();
         localStorage.setItem("favoriteName", myName);
-    });
+    }));
+    // Avoid page from refreshing when clicking enter
+    $('form').keydown(function(event) {
+        return event.keyCode != 13;
 
+    });
 
     // Rotates through an array to display different rules to users on landing page.
     let example = ['Experiment with colors', 'Walls do hurt', 'Ready yet???', 'Remember to eat the apples'];
