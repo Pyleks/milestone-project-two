@@ -29,6 +29,11 @@ body {
     background-color: #6495ed;
 }
 
+/************ Global Color ************/
+.makeYellow {
+    background-color: #ffff00;
+}
+
 /************ Jquery classes ************/
 .target_border {
     border: 6px solid !important;

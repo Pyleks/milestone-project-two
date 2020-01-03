@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $(".update_nick").text(localStorage.getItem("favoriteName"));
     $(".control-boxes").on("tap",function(){
-        $(this).hide();
+        $(this).addClass("makeYellow");
     });
 
 });
