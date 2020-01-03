@@ -5,7 +5,7 @@ $(document).ready(function(){
         $(".control-boxes").bind("tap", tapHandler);
 
         function tapHandler(event) {
-            $(event.target).addClass("makeYellow")
+            $(event.target).addClass("makeYellow");
         }
     });
 
