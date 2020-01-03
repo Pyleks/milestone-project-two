@@ -113,7 +113,7 @@ p {
 }
 
 .top_control {
-    display: inline-table;
+    display: inline-block;
     margin: 0 0 3px 0;
 }
 
