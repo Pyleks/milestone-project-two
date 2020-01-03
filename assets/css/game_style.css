@@ -134,10 +134,10 @@ p {
         font-size: 2.5rem;
     }
     .display_config {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
     canvas {
-        width: 100%;
+        width: 95%;
     }
     .control-boxes {
         height: 90px;
@@ -157,7 +157,7 @@ p {
         font-size: 2.5rem;
     }
     .display_config {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     canvas {
         width: 90%;
@@ -171,16 +171,19 @@ p {
 
 
 @media (max-width: 576px) {
-    .h1_size {
-        font-size: 2rem;
-        padding-top: 20%;
+    .heading {
+        display: none
     }
+    /*.h1_size {*/
+    /*    font-size: 2rem;*/
+    /*    padding-top: 10%;*/
+    /*}*/
 
     .nav_link_style {
         font-size: 1.5rem;
     }
     .display_config {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     canvas {
         width: 100%;
@@ -188,16 +191,19 @@ p {
 }
 
 @media (max-width: 360px) {
-    .h1_size {
-        font-size: 2rem;
-        padding-top: 10%;
-    }
+    .heading {
+    display: none
+}
+    /*.h1_size {*/
+    /*    font-size: 2rem;*/
+    /*    padding-top: 10%;*/
+    /*}*/
 
     .nav_link_style {
         font-size: 1.5rem;
     }
     .display_config {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     canvas {
         width: 100%;
