@@ -31,7 +31,7 @@ body {
 
 /************ Global Color ************/
 .makeYellow {
-    background-color: #ffff00;
+    background-color: #ffff00!important;
 }
 
 /************ Jquery classes ************/

@@ -1,7 +1,7 @@
 // Load User Data
 $(document).ready(function(){
     $(".update_nick").text(localStorage.getItem("favoriteName"));
-    $(".control-boxes").on("tap",function(){
+    $(".control-boxes").on("tap", function(){
         $(this).addClass("makeYellow");
     });
 
