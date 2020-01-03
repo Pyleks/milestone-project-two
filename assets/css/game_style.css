@@ -56,6 +56,10 @@ a:hover {
     padding: 2% 0 0 0;
 }
 
+.navigation-bar {
+    background-color: #4169e1;
+}
+
 /************ Header ************/
 
 .h1_size {
