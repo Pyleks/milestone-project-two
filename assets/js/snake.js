@@ -75,10 +75,6 @@ function direction(event){
 }
 
 
-$(".square").on("tap",function(){
-    $(this).hide();
-});
-
 
 // Game Over function
 function gameOverDraw() {

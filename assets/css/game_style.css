@@ -99,14 +99,6 @@ a:hover {
 p {
     font-size: 1.5rem;
 }
-.square {
-    position: absolute;
-    width: 20rem;
-    height: 42rem;
-    border-radius: 20px;
-    background-color: green;
-    opacity: 0.2;
-}
 
 /************ Footer ************/
 @media (max-width: 1024px) {
