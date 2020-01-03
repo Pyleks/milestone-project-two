@@ -74,6 +74,12 @@ function direction(event){
     }
 }
 
+
+$(".square").on("tap",function(){
+    $(this).hide();
+});
+
+
 // Game Over function
 function gameOverDraw() {
     ctx.drawImage(gameOver, 0, 0);
