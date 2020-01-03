@@ -100,7 +100,30 @@ p {
     font-size: 1.5rem;
 }
 
+/************ Controls ************/
+.control-boxes {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+}
+
+.control_display {
+    display: inline-block;
+    text-align: center;
+}
+
+.top_control {
+    display: inline-table;
+    margin: 0 0 3px 0;
+}
+
 /************ Media ************/
+@media (min-width: 1025px) {
+    .controls {
+    display: none;
+    }
+}
+
 @media (max-width: 1024px) {
     .h1_size {
         font-size: 4rem;
@@ -115,6 +138,11 @@ p {
     }
     canvas {
         width: 100%;
+    }
+    .control-boxes {
+        height: 90px;
+        width: 90px;
+        background-color: #555;
     }
 }
 
@@ -133,6 +161,11 @@ p {
     }
     canvas {
         width: 90%;
+    }
+    .control-boxes {
+        height: 70px;
+        width: 70px;
+        background-color: #555;
     }
 }
 
@@ -169,4 +202,8 @@ p {
     canvas {
         width: 100%;
     }
+    .control-boxes {
+        height: 50px;
+        width: 50px;
+        background-color: #555;
 }
