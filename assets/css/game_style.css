@@ -113,7 +113,7 @@ p {
         font-size: 1.8rem;
     }
     canvas {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -131,7 +131,7 @@ p {
         font-size: 1.8rem;
     }
     canvas {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -149,7 +149,7 @@ p {
         font-size: 1.3rem;
     }
     canvas {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -166,6 +166,6 @@ p {
         font-size: 1.3rem;
     }
     canvas {
-        width: 80%;
+        width: 100%;
     }
 }
