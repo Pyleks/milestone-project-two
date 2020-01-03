@@ -104,7 +104,7 @@ p {
 @media (max-width: 1024px) {
     .h1_size {
         font-size: 4rem;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     .nav_link_style {
@@ -122,7 +122,7 @@ p {
 @media (max-width: 768px) {
     .h1_size {
         font-size: 4rem;
-        padding-top: 20%;
+        padding-top: 5%;
     }
 
     .nav_link_style {
@@ -157,7 +157,7 @@ p {
 @media (max-width: 360px) {
     .h1_size {
         font-size: 2rem;
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .nav_link_style {
