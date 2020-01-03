@@ -174,10 +174,6 @@ p {
     .heading {
         display: none
     }
-    /*.h1_size {*/
-    /*    font-size: 2rem;*/
-    /*    padding-top: 10%;*/
-    /*}*/
 
     .nav_link_style {
         font-size: 1.5rem;
@@ -194,11 +190,6 @@ p {
     .heading {
     display: none
 }
-    /*.h1_size {*/
-    /*    font-size: 2rem;*/
-    /*    padding-top: 10%;*/
-    /*}*/
-
     .nav_link_style {
         font-size: 1.5rem;
     }
