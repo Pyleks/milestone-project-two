@@ -1,13 +1,7 @@
 // Load User Data
 $(document).ready(function(){
     $(".update_nick").text(localStorage.getItem("favoriteName"));
-    $(function() {
-        $(".control-boxes").bind("tap", tapHandler);
 
-        function tapHandler(event) {
-            $(event.target).addClass("makeYellow");
-        }
-    });
 
 });
 
@@ -80,6 +74,23 @@ function direction(event){
         d = "DOWN"
     }
 }
+
+// $(function() {
+//     $("#top").bind("tap", tapHandler);
+//
+//
+//     function tapHandler(event) {
+//         if(event.touches === $("#top")){
+//             $(event.target).addClass("makeYellow");
+//         }
+//     }
+// });
+
+
+$('#top').on({ 'touchstart' : function(){ d = "UP" } });
+$('#left').on({ 'touchstart' : function(){ d = "LEFT" } });
+$('#right').on({ 'touchstart' : function(){ d = "RIGHT" } });
+$('#down').on({ 'touchstart' : function(){ d = "DOWN" } });
 
 
 

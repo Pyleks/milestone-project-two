@@ -189,14 +189,20 @@ a:hover {
 
 .footer {
     position: absolute;
-    right: 0;
     bottom: 0;
-    left: 0;
-    padding: 1rem;
+    width: 100%;
     background-color: currentColor;
     text-align: center;
 
 }
+
+/*.footer {*/
+/*    clear: both;*/
+/*    position: relative;*/
+/*    height: 50px;*/
+/*    margin-top: 200px;*/
+/*    background-color: currentColor;*/
+/*}*/
 
 .footer-text-color {
     color: #ffffff;
