@@ -195,4 +195,4 @@ function draw() {
 // Call draw function every 100ms
 
 
-let game = setInterval(draw,200);
+let game = setInterval(draw,250);
