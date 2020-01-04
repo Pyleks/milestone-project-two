@@ -86,11 +86,15 @@ function direction(event){
 //     }
 // });
 
+// document.addEventListener("touchstart", touch_direction);
 
 $('#top').on({ 'touchstart' : function(){ d = "UP" } });
 $('#left').on({ 'touchstart' : function(){ d = "LEFT" } });
 $('#right').on({ 'touchstart' : function(){ d = "RIGHT" } });
 $('#down').on({ 'touchstart' : function(){ d = "DOWN" } });
+
+
+
 
 
 
@@ -191,4 +195,4 @@ function draw() {
 // Call draw function every 100ms
 
 
-let game = setInterval(draw,150);
+let game = setInterval(draw,200);
