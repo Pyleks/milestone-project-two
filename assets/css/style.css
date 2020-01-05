@@ -148,8 +148,9 @@ a:hover {
     display: inline;
 }
 
-.btn-secondary {
-    background-color: darkgreen !important;
+.custom_button {
+    background-color: darkgreen;
+    color: white;
 }
 
 #playButton {
@@ -167,6 +168,9 @@ a:hover {
     margin-left: auto;
 }
 
+.display_under {
+    display: block;
+}
 /************ Compatibility Icons ************/
 .compatible-headline {
     padding: 5rem 0 3rem 0;
