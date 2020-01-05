@@ -16,6 +16,8 @@
 <!--Navigation Bar-->
 <section class="container-fluid navigation-bar">
     <div class="col-sm-12 col-md-12 col-xl-12 text-right col_box_size">
+        <a class="remove_decoration nav_link_style" href="#exampleModalCenter"
+           data-toggle="modal" data-target="#howtoPlay">Tutorial</a>
         <a class="remove_decoration nav_link_style" href="https://github.com/Pyleks/milestone-project-two"
            target="_blank" rel="noopener">The Code</a>
         <a class="remove_decoration nav_link_style" href="feedback.html"
@@ -62,6 +64,43 @@
     <div class="control-boxes control_display fas fa-arrow-down fa-3x" id="down"></div>
     <div class="control-boxes control_display fas fa-arrow-right fa-3x" id="right"></div>
 </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="howtoPlay" tabindex="-1" role="dialog" aria-labelledby="how-to-play" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="how-to-play">How to Play </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal_desktop">Desktop Mode</h3>
+
+                <ol>
+                    <li class="list_space">Control the snake using the control keys on your keyboard</li>
+                    <li class="list_space">Avoid hitting your tail or the walls</li>
+                    <li class="list_space">Score is shown on top of the screen</li>
+                    <li class="list_space">Final Score is shown when player loses</li>
+                </ol>
+
+                <h3 class="modal_desktop">Smartphone/Tablet Mode</h3>
+
+                <ol>
+                    <li class="list_space">Control using touch controls on the screen/li>
+                    <li class="list_space">Remaining rules are same as above</li>
+                </ol>
+
+            </div>
+            <div class="modal-footer">
+                <img src="assets/images/wormhead.png">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

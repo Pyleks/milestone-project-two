@@ -126,6 +126,32 @@ p {
     margin: 0 0 3px 0;
 }
 
+/************ Modal styling ************/
+.modal-title {
+    font-size: 2rem;
+}
+
+.modal_desktop {
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+.list_space {
+    padding: 3px 10px 10px 10px;
+}
+
+.list_space {
+    margin-left: 15px;
+}
+
+.modal-content {
+    background-color: cornflowerblue;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
 /************ Media ************/
 @media (min-width: 1025px) {
     .controls {
