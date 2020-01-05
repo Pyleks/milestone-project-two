@@ -21,13 +21,14 @@ const gameOver = new Image();
 gameOver.src = "assets/images/gameoverImg.png";
 // ground.src = "assets/images/snake_board.jpg";
 
-const foodImg = new Image();
-// foodImg.src = "assets/images/AppleTest.png";
-foodImg.src = "assets/images/apple.png";
+const food_apple = new Image();
+food_apple.src = "assets/images/apple.png";
 
-const GreenfoodImg = new Image();
-// foodImg.src = "assets/images/AppleTest.png";
-GreenfoodImg.src = "assets/images/grapes.png";
+const food_lemon = new Image();
+food_lemon.src = "assets/images/Lemon.png";
+
+const food_blueberry = new Image();
+food_blueberry.src = "assets/images/Blueberry.png";
 
 
 // load
@@ -53,6 +54,11 @@ let foodTwo = {
     y : Math.floor(Math.random()*15+3) * box,
 };
 
+let foodThree = {
+    x : Math.floor(Math.random()*13+1) * box,
+    y : Math.floor(Math.random()*7+3) * box,
+};
+
 // Create the score var
 
 let score = 0;
@@ -75,18 +81,6 @@ function direction(event){
     }
 }
 
-// $(function() {
-//     $("#top").bind("tap", tapHandler);
-//
-//
-//     function tapHandler(event) {
-//         if(event.touches === $("#top")){
-//             $(event.target).addClass("makeYellow");
-//         }
-//     }
-// });
-
-// document.addEventListener("touchstart", touch_direction);
 
 $('#top').on({ 'touchstart' : function(){ d = "UP" } });
 $('#left').on({ 'touchstart' : function(){ d = "LEFT" } });
@@ -132,8 +126,9 @@ function draw() {
         ctx.strokeRect(snake[i].x,snake[i].y,box,box);
     }
 
-    ctx.drawImage(foodImg, foodOne.x, foodOne.y);
-    ctx.drawImage(GreenfoodImg, foodTwo.x, foodTwo.y);
+    ctx.drawImage(food_apple, foodOne.x, foodOne.y);
+    ctx.drawImage(food_lemon, foodTwo.x, foodTwo.y);
+    ctx.drawImage(food_blueberry, foodThree.x, foodThree.y);
     // old head position
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
@@ -146,7 +141,7 @@ function draw() {
     if(d == "DOWN") snakeY += box;
 
 
-
+    let a;
     // if the snake eats the food
     if(snakeX == foodOne.x && snakeY == foodOne.y){
         score++;
@@ -160,7 +155,12 @@ function draw() {
             x: Math.floor(Math.random()* 17 + 1) * box,
             y: Math.floor(Math.random()* 15 + 3) * box
 
-        }
+        }}else if(snakeX == foodThree.x && snakeY == foodThree.y){
+            score += 5;
+            foodThree = {
+                x: Math.floor(Math.random() * 17 + 1) * box,
+                y: Math.floor(Math.random() * 15 + 3) * box
+            }
 
 
         // we don't remove the tail
