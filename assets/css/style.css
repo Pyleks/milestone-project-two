@@ -173,7 +173,7 @@ a:hover {
 }
 /************ Compatibility Icons ************/
 .compatible-headline {
-    padding: 5rem 0 3rem 0;
+    padding: 4rem 0 3rem 0;
     font-size: 2rem;
 }
 .device-text {
@@ -193,11 +193,12 @@ a:hover {
 
 .footer {
     position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
-    background-color: currentColor;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
     text-align: center;
-
 }
 
 /*.footer {*/
@@ -212,7 +213,31 @@ a:hover {
     color: #ffffff;
 }
 
+/************ Modal styling ************/
+.modal-title {
+    font-size: 2rem;
+}
 
+.modal_desktop {
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+.list_space {
+    padding: 3px 10px 10px 10px;
+}
+
+.list_space {
+    margin-left: 15px;
+}
+
+.modal-content {
+    background-color: cornflowerblue;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
 /************ Media Queries ************/
 @media (max-width: 1200px) {
 
