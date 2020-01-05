@@ -155,7 +155,7 @@ function draw() {
             y: Math.floor(Math.random() * 12 + 3) * box
 
         }} else if(snakeX == foodTwo.x && snakeY == foodTwo.y){
-        score++;
+        score += 5;
         foodTwo = {
             x: Math.floor(Math.random()* 17 + 1) * box,
             y: Math.floor(Math.random()* 15 + 3) * box

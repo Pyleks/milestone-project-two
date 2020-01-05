@@ -6,9 +6,14 @@ $(document).ready(function(){
         if(myName.length > 8) {
             console.log("Too much");
             $(".display_under").css("color", "yellow");
+            $(".display_under").text("Maximum 8 Characters");
 
+            // Check for condition if Nickname has been written
+        }else if(myName.length <= 0) {
+            $(".display_under").text("Type in a Nickname");
+            $(".display_under").css("color", "yellow");
             // If passes check it get stored and transferred to the next page.
-        } else {
+        }else {
             localStorage.setItem("favoriteName", myName);
             console.log(myName);
             window.location.href = 'game.html';
