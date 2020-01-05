@@ -44,8 +44,8 @@ let userName = (localStorage.getItem("favoriteName"));
 // Create the food
 
 let foodOne = {
-    x : Math.floor(Math.random()*12+1) * box,
-    y : Math.floor(Math.random()*4+3) * box,
+    x : Math.floor(Math.random()*15+1) * box,
+    y : Math.floor(Math.random()*12+3) * box,
 };
 
 let foodTwo = {
@@ -151,14 +151,14 @@ function draw() {
     if(snakeX == foodOne.x && snakeY == foodOne.y){
         score++;
         foodOne = {
-            x: Math.floor(Math.random() * 12 + 1) * box,
-            y: Math.floor(Math.random() * 8 + 3) * box
+            x: Math.floor(Math.random() * 15 + 1) * box,
+            y: Math.floor(Math.random() * 12 + 3) * box
 
         }} else if(snakeX == foodTwo.x && snakeY == foodTwo.y){
         score++;
         foodTwo = {
-            x: Math.floor(Math.random() * 9 + 1) * box,
-            y: Math.floor(Math.random() * 5 + 3) * box
+            x: Math.floor(Math.random()* 17 + 1) * box,
+            y: Math.floor(Math.random()* 15 + 3) * box
 
         }
 
