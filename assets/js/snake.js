@@ -88,6 +88,19 @@ $('#right').on({ 'touchstart' : function(){ d = "RIGHT" } });
 $('#down').on({ 'touchstart' : function(){ d = "DOWN" } });
 
 
+// Game Features
+let a;
+function doubleTail() {
+    for (a = 0; a < 1; a ++) {
+        snake.unshift(snake);
+}}
+
+function trippleTail() {
+    for (a = 0; a < 2; a ++) {
+        snake.unshift(snake);
+}}
+
+
 
 
 
@@ -150,13 +163,15 @@ function draw() {
             y: Math.floor(Math.random() * 12 + 3) * box
 
         }} else if(snakeX == foodTwo.x && snakeY == foodTwo.y){
-        score += 5;
+        score += 2;
+        doubleTail();
         foodTwo = {
             x: Math.floor(Math.random()* 17 + 1) * box,
             y: Math.floor(Math.random()* 15 + 3) * box
 
         }}else if(snakeX == foodThree.x && snakeY == foodThree.y){
-            score += 5;
+            score += 3;
+            trippleTail();
             foodThree = {
                 x: Math.floor(Math.random() * 17 + 1) * box,
                 y: Math.floor(Math.random() * 15 + 3) * box
