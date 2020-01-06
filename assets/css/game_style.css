@@ -34,6 +34,11 @@ body {
     background-color: #ffff00!important;
 }
 
+/************ Canvas ************/
+canvas {
+    border: 1px solid white;
+    background-color: black;
+}
 /************ Jquery classes ************/
 .target_border {
     border: 6px solid !important;

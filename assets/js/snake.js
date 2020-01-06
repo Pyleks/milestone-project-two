@@ -93,6 +93,17 @@ let a;
 function doubleTail() {
     for (a = 0; a < 1; a ++) {
         snake.unshift(snake);
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+        let random_number = (getRandomInt(20));
+        console.log(random_number);
+        if(random_number = "7") {
+            for (a = 0; a < 5; a ++) {
+                snake.unshift(snake);
+                console.log("5")
+            }
+        }
 }}
 
 function trippleTail() {
