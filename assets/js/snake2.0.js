@@ -184,7 +184,7 @@ function loop() {
     });
     context.fillStyle = "white";
     context.font = "45px Changa one";
-    context.fillText(score, 9.2 * grid, 0.9 * grid);
+    context.fillText(score, 11.7 * grid, 1.1 * grid);
 
 
 }
