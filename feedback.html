@@ -15,11 +15,11 @@
 </head>
 <body>
 <!--Navigation Bar-->
-<section class="container-fluid navigation-bar">
+<section class="container-fluid navigation-bar dark_blue_bg">
     <div class="col-sm-12 col-md-12 col-xl-12 text-right col_box_size">
-        <a class="remove_decoration nav_link_style" href="https://github.com/Pyleks/milestone-project-two"
+        <a class="remove_decoration nav_link_style black_cl" href="https://github.com/Pyleks/milestone-project-two"
            target="_blank" rel="noopener">The Code</a>
-        <a class="remove_decoration nav_link_style" href="index.html">Home</a>
+        <a class="remove_decoration nav_link_style black_cl" href="index.html">Home</a>
     </div>
 </section>
 
@@ -27,33 +27,33 @@
 <section class="container heading">
     <div class="row">
         <div class="col">
-            <h1 class="h1_size h1_feedback_placement text-center"><span class="heading_border">Block</span>Worm Feedback</h1>
+            <h1 class="h1_size h1_feedback_placement text-center"><span class="heading_border dark_green_cl">Block</span>Worm Feedback</h1>
         </div>
     </div>
 </section>
 
 <!--Input Form -->
 <section class="input_body">
-    <div class="container form_placement">
+    <div class="container feedback_form_placement">
         <div class="row">
             <div class="col-12">
                 <div class="center-form">
                     <!-- Uses mailJS API to send mail -->
                     <form onsubmit="return sendMail(this);" method="POST">
                         <div class="form-group text-center">
-                            <input type="text" name="firstname" class="form-control form-style media-form " id="fName" placeholder="FirstName" required>
+                            <input type="text" name="firstname" class="form-control feedback_form_style media-form " id="fName" placeholder="FirstName" required>
                         </div>
                         <div class="form-group text-center">
-                            <input type="text" name="lastname" class="form-control form-style media-form" id="lName" placeholder="Lastname" required>
+                            <input type="text" name="lastname" class="form-control feedback_form_style media-form" id="lName" placeholder="Lastname" required>
                         </div>
                         <div class="form-group text-center">
-                            <input type="email" name="emailaddress" class="form-control form-style media-form" id="eMail" placeholder="Email" required>
+                            <input type="email" name="emailaddress" class="form-control feedback_form_style media-form" id="eMail" placeholder="Email" required>
                             <small class="form-text form-style-custom">We never share your details with anyone else!</small>
                         </div>
                         <div class="form-group">
                             <textarea rows="5" name="feedback" class="form-control media-text" id="feedback_summary"
                                       placeholder="Feedback" required></textarea>
-                            <small class="form-text form-style-custom">All feedback is good feedback &hearts;</small>
+                            <small class="form-text form-style-custom text-center">All feedback is good feedback &hearts;</small>
                         </div>
                         <button type="submit" class="btn btn-secondary center-block feedback_button">Submit</button>
                     </form>

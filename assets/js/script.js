@@ -5,13 +5,13 @@ $(document).ready(function(){
         // Check for condition if Nickname is too long
         if(myName.length > 8) {
             console.log("Too much");
-            $(".display_under").css("color", "yellow");
-            $(".display_under").text("Maximum 8 Characters");
+            $(".max_chara_display").css("color", "yellow");
+            $(".max_chara_display").text("Maximum 8 Characters");
 
             // Check for condition if Nickname has been written
         }else if(myName.length <= 0) {
-            $(".display_under").text("Type in a Nickname");
-            $(".display_under").css("color", "yellow");
+            $(".max_chara_display").text("Type in a Nickname");
+            $(".max_chara_display").css("color", "yellow");
             // If passes check it get stored and transferred to the next page.
         }else {
             localStorage.setItem("favoriteName", myName);

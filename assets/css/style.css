@@ -64,7 +64,14 @@ body {
     text-decoration: none !important;
 }
 
-/************ Navigation-bar  Hoover ************/
+/************ Global Form Styling ************/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/************ Navigation-bar Hoover Colours ************/
 .target_border {
     border: 6px solid !important;
     color: #006400;
@@ -101,6 +108,7 @@ a:hover {
 
 .h1_feedback_placement {
     padding-top: 5rem;
+    padding-bottom: 10%;
 }
 
 .heading_border {
@@ -116,17 +124,53 @@ a:hover {
     padding: 3rem 0 0 0;
 }
 
-/************ Nickname input styling ************/
+.center_rules_card {
+    margin: 0 auto;
+    float: none;
+}
+
+.card_text_rules {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/************ Nickname form and Player Button ************/
 .player_form_placement {
     display: flex;
     justify-content: center;
     padding: 5% 5% 4% 5%;
 }
 
-.custom_button {
+.player_form_style {
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+
+.nickname_form-width {
+    width: 50rem;
+}
+
+#playButton {
+    width: 25%;
+    font-size: 1.5rem;
+}
+
+.custom_play_button {
     margin-top: 5%;
     padding: 2% 10% 2% 10%;
     border-radius: 10%;
+}
+
+.max_chara_display {
+    display: block;
+}
+
+/************ Feedback Form ************/
+.feedback_form_style {
+    width: 40%;
+    text-align: center;
+    display: inline;
 }
 
 .feedback_button {
@@ -135,22 +179,6 @@ a:hover {
     border-radius: 10%;
 }
 
-.center_card {
-    margin: 0 auto;
-    float: none;
-}
-
-.car_text_style {
-    text-align: center;
-    font-size: 2rem;
-    color: #006400;
-}
-
-.form-style {
-    width: 50%;
-    text-align: center;
-    display: inline;
-}
 
 .feedback_fName {
     width: 50%;
@@ -158,28 +186,11 @@ a:hover {
     display: inline;
 }
 
-.custom_button {
-    background-color: darkgreen;
-    color: white;
-}
-
-#playButton {
-    width: 25%;
-    font-size: 1.5rem;
-}
-/************ Forms ************/
-.form-width {
-    width: 50rem;
-}
-
-.center-block {
+.media-text {
     display: block;
-    margin-right: auto;
     margin-left: auto;
-}
-
-.display_under {
-    display: block;
+    margin-right: auto;
+    width: 60%;
 }
 /************ Compatibility Icons ************/
 .compatible-headline {
@@ -190,35 +201,6 @@ a:hover {
     padding: 1rem 0 0 0;
     font-size: 1.5rem;
 }
-
-
-/************ Footer ************/
-.fixed-bottom {
-    padding-bottom: 10px;
-}
-
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-}
-
-/*.footer {*/
-/*    clear: both;*/
-/*    position: relative;*/
-/*    height: 50px;*/
-/*    margin-top: 200px;*/
-/*    background-color: currentColor;*/
-/*}*/
-
-.footer-text-color {
-    color: #ffffff;
-}
-
 /************ Modal styling ************/
 .modal-title {
     font-size: 2rem;
@@ -230,11 +212,9 @@ a:hover {
 }
 .list_space {
     padding: 3px 10px 10px 10px;
-}
-
-.list_space {
     margin-left: 15px;
 }
+
 
 img {
     max-width: 20%;
@@ -274,6 +254,9 @@ img {
     .nav_link_style {
         font-size: 2rem;
     }
+    .media-text {
+        width: 60%;
+    }
 
 }
 
@@ -290,7 +273,7 @@ img {
     .form-width {
         width: 30rem;
     }
-    .custom_button {
+    .custom_play_button {
         margin-top: 5%;
         padding: 2% 18% 2% 10%;
         border-radius: 10%;
@@ -304,6 +287,9 @@ img {
     }
     .compatible-headline {
         padding: 3rem 0 2rem 0;
+    }
+    .media-text {
+        width: 60%;
     }
 
 }
@@ -331,13 +317,17 @@ img {
     .player_name {
         width: 80%;
     }
-    .form-style {
+    .player_form_style {
+        width: 80%;
+    }
+
+    .feedback_form_style {
         width: 80%;
     }
     .compatible-container {
         display: none;
     }
-    .custom_button {
+    .custom_play_button {
         margin-top: 5%;
         padding: 2% 22% 2% 10%;
         border-radius: 10%;
@@ -348,6 +338,9 @@ img {
     }
     .car_text_style {
         font-size: 1.5rem;
+    }
+    .media-text {
+        width: 100%;
     }
 
 }
@@ -378,14 +371,17 @@ img {
         width: 100%;
     }
 
-    .form-style {
+    .player_form_style {
+        width: 100%;
+    }
+    .feedback_form_style {
         width: 100%;
     }
     .compatible-container {
         display: none;
     }
 
-    .custom_button {
+    .custom_play_button {
         margin-top: 5%;
         padding: 2% 25% 2% 10%;
         border-radius: 10%;
@@ -396,5 +392,8 @@ img {
     }
     .car_text_style {
         font-size: 1.5rem;
+    }
+    .media-text {
+        width: 100%;
     }
 }
