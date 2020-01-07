@@ -82,9 +82,11 @@ body {
     font-size: 2.5rem;
     padding: 0 1% 0 1%;
 }
+
 a:hover {
     color: #006400;
 }
+
 .icon_style {
     padding: 2% 0 0 0;
 }
@@ -114,8 +116,8 @@ a:hover {
     padding: 3rem 0 0 0;
 }
 
-/************ Main Body ************/
-.form_placement {
+/************ Nickname input styling ************/
+.player_form_placement {
     display: flex;
     justify-content: center;
     padding: 5% 5% 4% 5%;
@@ -133,14 +135,9 @@ a:hover {
     border-radius: 10%;
 }
 
-.h3_size {
-    font-size: 2rem;
-}
-
-.card {
+.center_card {
     margin: 0 auto;
     float: none;
-    margin-bottom: 10px;
 }
 
 .car_text_style {
