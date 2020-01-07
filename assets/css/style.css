@@ -59,6 +59,11 @@ body {
     color: #ffffff;
 }
 
+/************ Global Border Remover ************/
+.remove_border {
+    border: none;
+}
+
 /************ Global decoration Remover ************/
 .remove_decoration {
     text-decoration: none !important;
@@ -168,7 +173,7 @@ a:hover {
 
 /************ Feedback Form ************/
 .feedback_form_style {
-    width: 40%;
+    width: 30%;
     text-align: center;
     display: inline;
 }
@@ -245,6 +250,10 @@ canvas {
     display: inline-block;
     margin: 0 0 3px 0;
 }
+/************ Nickname ************/
+.update_nick {
+    font-size: 3rem;
+}
 
 /************ Media Queries ************/
 @media (max-width: 1200px) {
@@ -275,6 +284,9 @@ canvas {
         height: 90px;
         width: 90px;
         background-color: #555;
+    }
+    .update_nick {
+        font-size: 3rem;
     }
 
 
@@ -343,6 +355,9 @@ canvas {
     .player_form_style {
         width: 40%;
     }
+    .update_nick {
+        font-size: 2.5rem;
+    }
 
 }
 @media (max-width: 576px) {
@@ -396,6 +411,12 @@ canvas {
     }
     canvas {
         width: 100%;
+    }
+    .update_nick {
+        font-size: 2rem;
+    }
+    .heading {
+        display: none
     }
 
 }
@@ -458,5 +479,11 @@ canvas {
         height: 50px;
         width: 50px;
         background-color: #555;
+    }
+    .update_nick {
+        font-size: 2rem;
+    }
+    .heading {
+        display: none
     }
 }
