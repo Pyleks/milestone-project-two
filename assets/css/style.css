@@ -220,9 +220,41 @@ img {
     max-width: 20%;
     height: auto;
 }
+
+/************ Game Styling ************/
+canvas {
+    border: 1px solid white;
+    background-color: black;
+}
+.h1_placement_game {
+    padding-top: 5%;
+}
+/************ Game Controls ************/
+.control-boxes {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+}
+
+.control_display {
+    display: inline-block;
+    text-align: center;
+}
+
+.top_control {
+    display: inline-block;
+    margin: 0 0 3px 0;
+}
+
 /************ Media Queries ************/
 @media (max-width: 1200px) {
 
+}
+
+@media (min-width: 1025px) {
+    .controls {
+        display: none;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -235,6 +267,14 @@ img {
     }
     .form-width {
         width: 40rem;
+    }
+    canvas {
+        width: 95%;
+    }
+    .control-boxes {
+        height: 90px;
+        width: 90px;
+        background-color: #555;
     }
 
 
@@ -258,6 +298,7 @@ img {
         width: 60%;
     }
 
+
 }
 
 
@@ -275,7 +316,7 @@ img {
     }
     .custom_play_button {
         margin-top: 5%;
-        padding: 2% 18% 2% 10%;
+        padding: 2% 10% 2% 10%;
         border-radius: 10%;
     }
 
@@ -290,6 +331,17 @@ img {
     }
     .media-text {
         width: 60%;
+    }
+    canvas {
+        width: 90%;
+    }
+    .control-boxes {
+        height: 70px;
+        width: 70px;
+        background-color: #555;
+    }
+    .player_form_style {
+        width: 40%;
     }
 
 }
@@ -318,7 +370,7 @@ img {
         width: 80%;
     }
     .player_form_style {
-        width: 80%;
+        width: 40%;
     }
 
     .feedback_form_style {
@@ -329,7 +381,7 @@ img {
     }
     .custom_play_button {
         margin-top: 5%;
-        padding: 2% 22% 2% 10%;
+        padding: 2% 10% 2% 10%;
         border-radius: 10%;
     }
 
@@ -340,6 +392,9 @@ img {
         font-size: 1.5rem;
     }
     .media-text {
+        width: 100%;
+    }
+    canvas {
         width: 100%;
     }
 
@@ -372,7 +427,7 @@ img {
     }
 
     .player_form_style {
-        width: 100%;
+        width: 35%;
     }
     .feedback_form_style {
         width: 80%;
@@ -383,7 +438,7 @@ img {
 
     .custom_play_button {
         margin-top: 5%;
-        padding: 2% 25% 2% 10%;
+        padding: 2% 10% 2% 10%;
         border-radius: 10%;
     }
 
@@ -395,5 +450,13 @@ img {
     }
     .media-text {
         width: 100%;
+    }
+    canvas {
+        width: 100%;
+    }
+    .control-boxes {
+        height: 50px;
+        width: 50px;
+        background-color: #555;
     }
 }
