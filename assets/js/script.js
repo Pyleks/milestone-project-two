@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
 
     // Rotates through an array to display different rules to users on landing page.
-    let example = ['Experiment with colors', 'Walls do hurt', 'Ready yet???', 'Remember to eat the apples'];
+    let example = ['Experiment with colors', 'Walls do not hurt', 'Ready yet???', 'Remember to eat the apples'];
 
     textSequence(0);
     function textSequence(i) {
