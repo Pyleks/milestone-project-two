@@ -16,57 +16,52 @@
 
 
 <!--Navigation Bar-->
-<section class="container-fluid navigation-bar">
+<section class="container-fluid navigation-bar dark_blue_bg">
     <div class="col-sm-12 col-md-12 col-xl-12 text-right col_box_size">
-        <a class="remove_decoration nav_link_style" href="#exampleModalCenter"
+        <a class="remove_decoration nav_link_style black_cl" href="#exampleModalCenter"
            data-toggle="modal" data-target="#howtoPlay">Tutorial</a>
-        <a class="remove_decoration nav_link_style" href="https://github.com/Pyleks/milestone-project-two"
+        <a class="remove_decoration nav_link_style black_cl" href="https://github.com/Pyleks/milestone-project-two"
            target="_blank" rel="noopener">Code</a>
-        <a class="remove_decoration nav_link_style" href="feedback.html">Feedback</a>
+        <a class="remove_decoration nav_link_style black_cl" href="feedback.html">Feedback</a>
 
     </div>
 </section>
 
 <!--Header-->
-<section class="container img_placement heading">
+<section class="container heading">
     <div class="row">
         <div class="col">
-            <h1 class="h1_size h1_placement text-center"><span class="heading_border">Block</span>Worm Adventures</h1>
+            <h1 class="h1_size h1_placement text-center"><span class="heading_border dark_green_cl">Block</span>Worm
+                Adventures</h1>
 
         </div>
     </div>
 </section>
 
 <!-- Input Body-->
-<section class="input_body">
-    <div class="container form_placement">
-        <div class="row text-center">
-            <div class="col-12">
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="username" class="form-control form-style media-form" id="nickName"
-                               placeholder="Nickname" required>
-                        <small class="display_under mt-2">Maximum 8 Characters</small>
-                        <a type="button" id="playButton" href="#" class="btn center-block custom_button">Play</a>
-
-<!--                        <a type="button" id="playButton" href="game.html" class="btn btn-secondary center-block custom_button">Play</a>-->
-                    </form>
-                </div>
+<section class="player_input container form_placement">
+    <div class="row text-center">
+        <div class="col-12">
+            <div class="form-width">
+                <form>
+                    <input type="text" name="username" class="form-control form-style media-form" id="nickName"
+                           placeholder="Nickname" required>
+                    <small class="display_under mt-2">Maximum 8 Characters</small>
+                    <a type="button" id="playButton" href="#" class="btn center-block custom_button">Play</a>
+                </form>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Rules carousel-->
-<section class="rules_body">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 ">
-                <div class="card w-50 ">
-                    <div class="card-body color_blue remove_decoration">
-                        <div class="car_text_style" id='slideshow'>
-                            <p>Remember to eat the apples</p>
-                        </div>
+<section class="rules_body container">
+    <div class="row">
+        <div class="col-12 ">
+            <div class="card w-50 ">
+                <div class="card-body light_blue-bg remove_decoration">
+                    <div class="car_text_style" id='slideshow'>
+                        <p>Remember to eat the apples</p>
                     </div>
                 </div>
             </div>
@@ -76,25 +71,23 @@
 
 
 <!-- Playable on -->
-<section class="compatible-container">
-    <div class="container text-center">
-        <div class="col-12">
-            <h3 class="compatible-headline" id="compatible-devices">Playable On</h3>
+<section class="compatible-container container text-center">
+    <div class="col-12">
+        <h3 class="compatible-headline" id="compatible-devices">Playable On</h3>
+    </div>
+    <div class="row marker-center">
+        <div class="col-md-4">
+            <i class="device-icons fas fa-laptop fa-5x"></i>
+            <h4 class="device-text">Computer</h4>
         </div>
-        <div class="row marker-center">
-            <div class="col-md-4">
-                <i class="device-icons fas fa-laptop fa-5x"></i>
-                <h4 class="device-text">Computer</h4>
-            </div>
-            <div class="col-md-4">
-                <i class="device-icons fas fa-mobile-alt fa-5x"></i>
-                <h4 class="device-text">Smart Phone</h4>
-            </div>
-            <div class="col-md-4">
-                <i class="device-icons fas fa-tablet-alt fa-5x"></i>
-                <h4 class="device-text">Tablet</h4>
+        <div class="col-md-4">
+            <i class="device-icons fas fa-mobile-alt fa-5x"></i>
+            <h4 class="device-text">Smart Phone</h4>
+        </div>
+        <div class="col-md-4">
+            <i class="device-icons fas fa-tablet-alt fa-5x"></i>
+            <h4 class="device-text">Tablet</h4>
 
-            </div>
         </div>
     </div>
 </section>
@@ -106,7 +99,7 @@
 <!-- Modal -->
 <div class="modal fade" id="howtoPlay" tabindex="-1" role="dialog" aria-labelledby="how-to-play" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
+        <div class="light_blue-bg">
             <div class="modal-header">
                 <h5 class="modal-title" id="how-to-play">How to Play </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">

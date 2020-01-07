@@ -59,20 +59,21 @@ body {
     color: #ffffff;
 }
 
-/************ Jquery classes ************/
+/************ Global decoration Remover ************/
+.remove_decoration {
+    text-decoration: none !important;
+}
+
+/************ Navigation-bar  Hoover ************/
 .target_border {
     border: 6px solid !important;
-    color: darkgreen;
+    color: #006400;
 }
 
 .red_button {
     background-color: #ff0000 !important;
 }
 /************ Navigation Bar ************/
-.remove_decoration {
-    text-decoration: none !important;
-}
-
 .col_box_size {
     padding: 1%;
 }
@@ -80,19 +81,13 @@ body {
 .nav_link_style {
     font-size: 2.5rem;
     padding: 0 1% 0 1%;
-    color: #000000;
 }
 a:hover {
-    color: darkgreen;
+    color: #006400;
 }
 .icon_style {
     padding: 2% 0 0 0;
 }
-
-.navigation-bar {
-    background-color: #4169e1;
-}
-
 /************ Header ************/
 
 .h1_size {
@@ -108,14 +103,8 @@ a:hover {
 
 .heading_border {
     border: 6px solid !important;
-    color: darkgreen;
 }
 
-.img_placement {
-    position: relative;
-    text-align: center;
-
-}
 /************ Nickname Input ************/
 #nickName {
     font-size: 1.5rem;
@@ -123,13 +112,6 @@ a:hover {
 /************ Rules Carousel ************/
 .rules_body {
     padding: 3rem 0 0 0;
-}
-.color_blue {
-    background-color: #6495ed;
-}
-/************ TEMP category ************/
-.compatible-headline {
-
 }
 
 /************ Main Body ************/
@@ -189,7 +171,7 @@ a:hover {
     font-size: 1.5rem;
 }
 /************ Forms ************/
-.center-form {
+.form-width {
     width: 50rem;
 }
 
@@ -211,10 +193,6 @@ a:hover {
     padding: 1rem 0 0 0;
     font-size: 1.5rem;
 }
-.plus-icons {
-    color: darkgreen;
-}
-
 
 
 /************ Footer ************/
@@ -261,10 +239,6 @@ a:hover {
     margin-left: 15px;
 }
 
-.modal-content {
-    background-color: cornflowerblue;
-}
-
 img {
     max-width: 20%;
     height: auto;
@@ -278,11 +252,11 @@ img {
     .h1_size {
         padding-top: 20%;
     }
-    .input_body {
+    .player_input {
         padding-top: 10%;
         padding-bottom: 5%;
     }
-    .center-form {
+    .form-width {
         width: 40rem;
     }
 
@@ -293,11 +267,11 @@ img {
     .h1_size {
         padding-top: 15%;
     }
-    .input_body {
+    .player_input {
         padding-top: 5%;
         padding-bottom: 5%;
     }
-    .center-form {
+    .form-width {
         width: 40rem;
     }
     .nav_link_style {
@@ -312,11 +286,11 @@ img {
         font-size: 4.3rem;
         padding-top: 20%;
     }
-    .input_body {
+    .player_input {
         padding-top: 10%;
         padding-bottom: 5%;
     }
-    .center-form {
+    .form-width {
         width: 30rem;
     }
     .custom_button {
@@ -350,17 +324,17 @@ img {
         font-size: 1rem;
     }
 
-    .input_body {
+    .player_input {
         padding-top: 10%;
         padding-bottom: 10%;
     }
-    .center-form {
+    .form-width {
         width: 20rem;
     }
     .player_name {
         width: 80%;
     }
-    .media-form {
+    .form-style {
         width: 80%;
     }
     .compatible-container {
@@ -394,12 +368,12 @@ img {
         font-size: 1rem;
     }
 
-    .input_body {
+    .player_input {
         padding-top: 5%;
         padding-bottom: 10%;
     }
 
-    .center-form {
+    .form-width {
         width: 16rem;
     }
 
@@ -407,7 +381,7 @@ img {
         width: 100%;
     }
 
-    .media-form {
+    .form-style {
         width: 100%;
     }
     .compatible-container {
