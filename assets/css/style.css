@@ -127,6 +127,7 @@ a:hover {
 /************ Nickname Input ************/
 #nickName {
     font-size: 1.5rem;
+    width: 100%;
 }
 /************ Rules Carousel ************/
 .rules_body {
@@ -158,7 +159,7 @@ a:hover {
 
 
 #playButton {
-    width: 25%;
+    width: 50%;
     font-size: 1.5rem;
 }
 
