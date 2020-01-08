@@ -69,6 +69,10 @@ body {
     text-decoration: none !important;
 }
 
+/************ Global Margin Remover ************/
+.no_margin {
+    margin: 0;
+}
 /************ Global Form Styling ************/
 .center-block {
     display: block;
@@ -152,9 +156,6 @@ a:hover {
     display: inline;
 }
 
-.nickname_form-width {
-    width: 50rem;
-}
 
 #playButton {
     width: 25%;
