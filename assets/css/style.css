@@ -124,11 +124,7 @@ a:hover {
     border: 6px solid !important;
 }
 
-/************ Nickname Input ************/
-#nickName {
-    font-size: 1.5rem;
-    width: 100%;
-}
+
 /************ Rules Carousel ************/
 .rules_body {
     padding: 3rem 0 0 0;
@@ -149,6 +145,11 @@ a:hover {
     display: flex;
     justify-content: center;
     padding: 5% 5% 4% 5%;
+}
+
+#nickName {
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 .player_form_style {
