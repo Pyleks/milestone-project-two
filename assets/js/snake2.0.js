@@ -218,9 +218,20 @@ document.addEventListener('keydown', function(e) {
     }
 
 });
-$('#top').on({ 'touchstart' : function(){ snake.dy = -grid; snake.dx = 0 } });
-$('#left').on({ 'touchstart' : function(){ snake.dx = -grid; snake.dy = 0 } });
-$('#right').on({ 'touchstart' : function(){ snake.dx = grid; snake.dy = 0 } });
-$('#down').on({ 'touchstart' : function(){ snake.dy = grid; snake.dx = 0 } });
+
+
+$('#top').on({ 'touchstart' : function(){ snake.dy = -grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
+$('#top').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+
+$('#left').on({ 'touchstart' : function(){ snake.dx = -grid; snake.dy = 0; $(this).addClass("yellow_bg") } });
+$('#left').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+
+$('#right').on({ 'touchstart' : function(){ snake.dx = grid; snake.dy = 0; $(this).addClass("yellow_bg") } });
+$('#right').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+
+$('#down').on({ 'touchstart' : function(){ snake.dy = grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
+$('#down').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+
+
 // start the game
 requestAnimationFrame(loop);

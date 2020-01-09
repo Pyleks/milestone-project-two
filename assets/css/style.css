@@ -20,7 +20,19 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+/************ background ************/
+/*.background {*/
+/*    !* The image used *!*/
+/*    background-image: url("../images/background.png");*/
 
+/*    !* Full height *!*/
+/*    height: 100%;*/
+
+/*    !* Center and scale the image nicely *!*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
 
 /************ Global Font ************/
@@ -45,6 +57,10 @@ body {
 
 .dark_green_bg {
     background-color: #006400;
+}
+
+.yellow_bg {
+    background-color: #ffff00 !important;
 }
 /************ Global colors ************/
 .dark_green_cl {
