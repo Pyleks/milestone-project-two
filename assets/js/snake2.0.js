@@ -9,6 +9,11 @@ var context = canvas.getContext('2d');
 var grid = 32;
 var count = 0;
 let score = 0;
+let scoreArray = [];
+let usernameArray = [];
+usernameArray.push(localStorage.getItem("favoriteName"));
+console.log(usernameArray);
+
 
 // Imported Graphics
 const ground = new Image();
@@ -219,7 +224,7 @@ document.addEventListener('keydown', function(e) {
 
 });
 
-
+// Mobile controls
 $('#top').on({ 'touchstart' : function(){ snake.dy = -grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
 $('#top').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
 
