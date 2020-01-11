@@ -75,6 +75,10 @@ body {
     color: #ffffff;
 }
 
+.red_cl {
+    color: #ff0000;
+}
+
 /************ Global Border Remover ************/
 .remove_border {
     border: none;
@@ -264,6 +268,28 @@ a:hover {
 .container:hover .overlay {
     opacity: 1;
 }
+/************ Game Over ************/
+.gameover_style {
+    padding: 5rem 0 0 0;
+    font-size: 7rem;
+}
+.top_score_style {
+    padding: 5rem 0 0 0;
+    font-size: 3rem;
+}
+hr {
+    border-top: 2px solid white ;
+}
+
+.final_nick_style {
+    display: inline;
+
+}
+
+.final_score_style {
+    display: inline;
+
+}
 
 /************ Modal styling ************/
 .modal-title {
@@ -295,6 +321,10 @@ canvas {
 }
 .h1_placement_game {
     padding-top: 5%;
+}
+
+.top_control {
+    padding: 10px 0 0 0;
 }
 /************ Game Controls ************/
 .control-boxes {
