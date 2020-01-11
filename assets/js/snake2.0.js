@@ -12,7 +12,7 @@ let score = 0;
 let scoreArray = [];
 let usernameArray = [];
 usernameArray.push(localStorage.getItem("favoriteName"));
-console.log(usernameArray);
+// console.log(usernameArray);
 
 
 // Imported Graphics
