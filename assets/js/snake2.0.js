@@ -81,7 +81,13 @@ function yellowappleScore() {
     }
 }
 
-
+//Game Over - Add Score
+function addScore() {
+    scoreArray.push(score);
+    let last_element = scoreArray[scoreArray.length - 1];
+    $(".final_nick_style").append("<br>" + `<p>${usernameArray}</p>`);
+    $(".final_score_style").append("<br>" + `<p>${last_element}</p>`);
+}
 
 
 // game loop
@@ -181,6 +187,11 @@ function loop() {
                 // Yellow Apple
                 yellowApple.x = getRandomInt(0, 25) * grid;
                 yellowApple.y = getRandomInt(0, 25) * grid;
+                // document.getElementsByClassName("overlay").css("opacity: 1");
+                addScore();
+                $(".overlay").css("opacity", "1");
+
+
                 score = 0
 
 
