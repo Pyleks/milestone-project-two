@@ -330,7 +330,7 @@ canvas {
 
 @media (max-width: 1024px) {
     .h1_size {
-        padding-top: 20%;
+        padding-top: 10%;
     }
     .player_input {
         padding-top: 10%;
@@ -346,6 +346,10 @@ canvas {
     }
     .update_nick {
         font-size: 3rem;
+    }
+    .game_container {
+        width: 90%;
+        max-width: 800px;
     }
 
 
@@ -376,7 +380,7 @@ canvas {
 @media (max-width: 768px) {
     .h1_size {
         font-size: 4.3rem;
-        padding-top: 20%;
+        padding-top: 10%;
     }
     .player_input {
         padding-top: 10%;
@@ -416,7 +420,6 @@ canvas {
         font-size: 2.5rem;
     }
     .game_container {
-        position: relative;
         width: 80%;
         max-width: 800px;
     }
@@ -477,6 +480,10 @@ canvas {
     }
     #game_heading {
         display: none
+    }
+    .game_container {
+        width: 100%;
+        max-width: 800px;
     }
 
 }
@@ -543,5 +550,9 @@ canvas {
     }
     #game_heading {
         display: none
+    }
+    .game_container {
+        width: 100%;
+        max-width: 800px;
     }
 }
