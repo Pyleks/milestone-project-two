@@ -265,11 +265,6 @@ a:hover {
     text-align: center;
 }
 
-.container:hover .overlay {
-    opacity: 1;
-}
-
-
 /************ Game Over ************/
 .gameover_style {
     padding: 5rem 0 0 0;
@@ -354,10 +349,6 @@ canvas {
 }
 
 /************ Media Queries ************/
-@media (max-width: 1200px) {
-
-}
-
 @media (min-width: 1025px) {
     .controls {
         display: none;
