@@ -5,10 +5,10 @@ $(document).ready(function(){
 });
 
 // Global variables
-var canvas = document.getElementById('snake_game');
-var context = canvas.getContext('2d');
-var grid = 32;
-var count = 0;
+let canvas = document.getElementById('snake_game');
+let context = canvas.getContext('2d');
+let grid = 32;
+let count = 0;
 let score = 0;
 let usernameArray = [];
 let scoreArray =[];
@@ -41,7 +41,7 @@ function reload_window(){
     window.location.reload();
 }
 
-var snake = {
+let snake = {
     x: 160,
     y: 160,
 
@@ -56,22 +56,22 @@ var snake = {
     maxCells: 4
 };
 // Random Apple Placement
-var redApple = {
+let redApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
 };
 
-var blueApple = {
+let blueApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
 };
 
-var yellowApple = {
+let yellowApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
 };
 
-var greenApple = {
+let greenApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
 };
@@ -195,7 +195,7 @@ function loop() {
 
 
         // check collision with all cells after this one (modified bubble sort)
-        for (var i = index + 1; i < snake.cells.length; i++) {
+        for (let i = index + 1; i < snake.cells.length; i++) {
 
             // snake occupies same space as a body part. reset game
             if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
