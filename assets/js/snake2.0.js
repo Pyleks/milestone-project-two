@@ -20,8 +20,6 @@ let scoreArray =[];
 let index = 0;
 
 
-
-
 // Imported Graphics A.A
 const ground = new Image();
 ground.src = "assets/images/theTree.png";
@@ -40,7 +38,11 @@ $(".play_againButton").click(function() {
 // Synchronous XMLHttpRequest Warning cause an issue solved with below code A.A
 $("#hard_refresh").click(function() {
     setTimeout(reload_window, 500)
+});
 
+// Synchronous XMLHttpRequest Warning cause an issue solved with below code A.A
+$("#home").click(function() {
+    setTimeout(reload_window, 500)
 });
 // To reload window to allow traveling from game to home/feedback A.A
 function reload_window(){
