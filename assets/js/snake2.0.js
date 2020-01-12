@@ -35,19 +35,6 @@ $(".play_againButton").click(function() {
     $(".overlay").css("opacity", "0");
 });
 
-// Synchronous XMLHttpRequest Warning cause an issue solved with below code A.A
-// $("#hard_refresh").click(function() {
-//     setTimeout(reload_window, 500)
-// });
-//
-// // Synchronous XMLHttpRequest Warning cause an issue solved with below code A.A
-// $("#home").click(function() {
-//     setTimeout(reload_window, 500)
-// });
-// To reload window to allow traveling from game to home/feedback A.A
-function reload_window(){
-    window.location.reload();
-}
 
 let snake = {
     x: 160,
