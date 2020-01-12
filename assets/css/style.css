@@ -460,6 +460,15 @@ canvas {
         max-width: 800px;
     }
 
+    .gameover_style {
+        padding: 2rem 0 0 0;
+        font-size: 5rem;
+    }
+    .top_score_style {
+        padding: 3rem 0 0 0;
+        font-size: 3rem;
+    }
+
 }
 @media (max-width: 576px) {
     .h1_size {
@@ -520,6 +529,27 @@ canvas {
     .game_container {
         width: 100%;
         max-width: 800px;
+    }
+    .game_container {
+        width: 100%;
+        max-width: 800px;
+    }
+    .gameover_style {
+        padding: 1rem 0 0 0;
+        font-size: 3rem;
+    }
+    .top_score_style {
+        padding: 1rem 0 0 0;
+        font-size: 2rem;
+    }
+    .final_nick_style {
+        font-size: 1.1rem;
+    }
+    .final_score_style {
+        font-size: 1.1rem;
+    }
+    .play_againButton {
+        font-size: 1.1rem;
     }
 
 }
@@ -590,5 +620,22 @@ canvas {
     .game_container {
         width: 100%;
         max-width: 800px;
+    }
+    .gameover_style {
+        padding: 1rem 0 0 0;
+        font-size: 2rem;
+    }
+    .top_score_style {
+        padding: 1rem 0 0 0;
+        font-size: 1.5rem;
+    }
+    .final_nick_style {
+        font-size: 0.9rem;
+    }
+    .final_score_style {
+        font-size: 0.9rem;
+    }
+    .play_againButton {
+        font-size: 0.9rem;
     }
 }
