@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 });
 
+// Global variables
 var canvas = document.getElementById('snake_game');
 var context = canvas.getContext('2d');
 var grid = 32;
@@ -24,6 +25,20 @@ ground.src = "assets/images/theTree.png";
 // Global Random Generator
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
+}
+
+//
+$(".play_againButton").click(function() {
+    $(".overlay").css("opacity", "0");
+});
+
+$("#hard_refresh").click(function() {
+    setTimeout(reload_window, 500)
+
+});
+
+function reload_window(){
+    window.location.reload();
 }
 
 var snake = {
@@ -80,7 +95,7 @@ function yellowappleScore() {
     }
 }
 
-//Game Over - Add Score
+// Game Over - Add Score
 function addScore() {
     usernameArray.push([(localStorage.getItem("favoriteName"))]);
     scoreArray.push(score);
@@ -100,10 +115,6 @@ function addScore() {
     $(".final_score_style").append("<br>" + `<p>${last_score}</p>`);
 
 }
-
-$(".play_againButton").click(function() {
-    $(".overlay").css("opacity", "0");
-});
 
 
 // game loop
@@ -205,7 +216,8 @@ function loop() {
                 yellowApple.y = getRandomInt(0, 25) * grid;
                 $(".overlay").css("opacity", "1");
                 addScore();
-                score = 0
+                score = 0;
+                return;
 
 
             }
