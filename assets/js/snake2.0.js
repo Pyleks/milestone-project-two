@@ -1,4 +1,8 @@
-// Load User Data
+// Game Consist of Code acquired from another dev as well as my own.
+// Comments market with A.A is developed by me.
+// Core Code: https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4
+
+// Load User Data A.A
 $(document).ready(function(){
     $(".update_nick").text(localStorage.getItem("favoriteName"));
 
@@ -9,34 +13,36 @@ let canvas = document.getElementById('snake_game');
 let context = canvas.getContext('2d');
 let grid = 32;
 let count = 0;
+// A.A
 let score = 0;
 let usernameArray = [];
 let scoreArray =[];
 let index = 0;
-// player_information.push([(localStorage.getItem("favoriteName"))], []);
 
 
 
-// Imported Graphics
+
+// Imported Graphics A.A
 const ground = new Image();
 ground.src = "assets/images/theTree.png";
 
 
-// Global Random Generator
+// Global Random Generator A.A
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
-//
+// Enable continues playing A.A
 $(".play_againButton").click(function() {
     $(".overlay").css("opacity", "0");
 });
 
+// Synchronous XMLHttpRequest Warning cause an issue solved with below code A.A
 $("#hard_refresh").click(function() {
     setTimeout(reload_window, 500)
 
 });
-
+// To reload window to allow traveling from game to home/feedback A.A
 function reload_window(){
     window.location.reload();
 }
@@ -45,17 +51,17 @@ let snake = {
     x: 160,
     y: 160,
 
-    // snake velocity. moves one grid length every frame in either the x or y direction
+    // Moves 1 grid per frame
     dx: grid,
     dy: 0,
 
     // keep track of all grids the snake body occupies
     cells: [],
 
-    // length of the snake. grows when eating an apple
+    // Beginner length of snake
     maxCells: 4
 };
-// Random Apple Placement
+// Random Apple Placement at start of game A.A
 let redApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
@@ -77,7 +83,7 @@ let greenApple = {
 };
 
 
-// Game Features
+// Different apples provides different length A.A
 let i;
 function blueappleScore() {
     for (i = 0; i < 2; i++) {
@@ -95,7 +101,7 @@ function yellowappleScore() {
     }
 }
 
-// Game Over - Add Score
+// Game Over - Add Score A.A
 function addScore() {
     usernameArray.push([(localStorage.getItem("favoriteName"))]);
     scoreArray.push(score);
@@ -117,43 +123,43 @@ function addScore() {
 }
 
 
-// game loop
+// Game loop
 function loop() {
     requestAnimationFrame(loop);
-    // slow game loop to 15 fps instead of 60 (60/15 = 4)
+    // Determines the game speed
     if (++count < 5) {
         return;
     }
     count = 0;
     context.clearRect(0, 0, canvas.width, canvas.height);
 
-    // move snake by it's velocity
+    // Moves Snake
     snake.x += snake.dx;
     snake.y += snake.dy;
     context.drawImage(ground, 0, 0);
 
-    // wrap snake position horizontally on edge of screen
+    // When snake moves across the border, it appears on the other side
     if (snake.x < 0) {
         snake.x = canvas.width - grid;
     } else if (snake.x >= canvas.width) {
         snake.x = 0;
     }
 
-    // wrap snake position vertically on edge of screen
+    // Wrap snake position vertically on edge of screen
     if (snake.y < 0) {
         snake.y = canvas.height - grid;
     } else if (snake.y >= canvas.height) {
         snake.y = 0;
     }
 
-    // keep track of where snake has been. front of the array is always the head
+    // Keep track of where snake has been. And the front of the array is always the head
     snake.cells.unshift({x: snake.x, y: snake.y});
     // remove cells as we move away from them
     if (snake.cells.length > snake.maxCells) {
         snake.cells.pop();
     }
 
-    // draw Red, Blue and Yellow apple
+    // Draw Red, A.A Blue and Yellow apple
     context.fillStyle = 'red';
     context.fillRect(redApple.x, redApple.y, grid - 1, grid - 1);
 
@@ -163,41 +169,40 @@ function loop() {
     context.fillStyle = 'yellow';
     context.fillRect(yellowApple.x, yellowApple.y, grid - 1, grid - 1);
 
-    // draw snake one cell at a time
+    // Draw snake one cell at a time
     context.fillStyle = 'green';
     snake.cells.forEach(function (cell, index) {
 
-        // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
+        // Drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
         context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
         // snake ate apple
         if (cell.x === redApple.x && cell.y === redApple.y) {
             snake.maxCells++;
             score ++;
-            // canvas is 400x400 which is 25x25 grids
+            // Canvas is 800 x 800
             redApple.x = getRandomInt(0, 25) * grid;
             redApple.y = getRandomInt(0, 25) * grid;
 
+            // Each block adds another apple to the Canvas A.A
         } else if (cell.x === blueApple.x && cell.y === blueApple.y) {
             blueappleScore();
             score ++;
-
-            // canvas is 400x400 which is 25x25 grids
             blueApple.x = getRandomInt(0, 25) * grid;
             blueApple.y = getRandomInt(0, 25) * grid;
+
+            // Each block adds another apple to the Canvas A.A
         } else if (cell.x === yellowApple.x && cell.y === yellowApple.y) {
             yellowappleScore();
             score ++;
-
-            // canvas is 400x400 which is 25x25 grids
             yellowApple.x = getRandomInt(0, 25) * grid;
             yellowApple.y = getRandomInt(0, 25) * grid;
         }
 
 
-        // check collision with all cells after this one (modified bubble sort)
+        // Check collision with all cells after this one
         for (let i = index + 1; i < snake.cells.length; i++) {
 
-            // snake occupies same space as a body part. reset game
+            // Snake occupies same space as a body part. reset game
             if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
                 snake.x = 160;
                 snake.y = 160;
@@ -208,12 +213,13 @@ function loop() {
                 // Red Apple
                 redApple.x = getRandomInt(0, 25) * grid;
                 redApple.y = getRandomInt(0, 25) * grid;
-                // Blue Apple
+                // Blue Apple  A.A
                 blueApple.x = getRandomInt(0, 25) * grid;
                 blueApple.y = getRandomInt(0, 25) * grid;
-                // Yellow Apple
+                // Yellow Apple A.A
                 yellowApple.x = getRandomInt(0, 25) * grid;
                 yellowApple.y = getRandomInt(0, 25) * grid;
+                // When Game Over. the Overlay is added A.A
                 $(".overlay").css("opacity", "1");
                 addScore();
                 score = 0;
@@ -223,6 +229,7 @@ function loop() {
             }
         }
     });
+    // Scoreboard A.A
     context.fillStyle = "white";
     context.font = "45px Changa one";
     context.fillText(score, 11.7 * grid, 1.1 * grid);
@@ -230,29 +237,29 @@ function loop() {
 
 }
 
-// listen to keyboard events to move the snake
+// Listen to keyboard events to move the snake
 document.addEventListener('keydown', function(e) {
-// prevent snake from backtracking on itself by checking that it's
-// not already moving on the same axis (pressing left while moving
-// left won't do anything, and pressing right while moving left
-// shouldn't let you collide with your own body)
+// Prevent snake from backtracking on itself by checking that it's
+// Not already moving on the same axis (pressing left while moving
+// Left won't do anything, and pressing right while moving left
+// Shouldn't let you collide with your own body)
 
-    // left arrow key
+    // Left arrow key
     if (e.which === 37 && snake.dx === 0) {
         snake.dx = -grid;
         snake.dy = 0;
     }
-    // up arrow key
+    // Up arrow key
     else if (e.which === 38 && snake.dy === 0) {
         snake.dy = -grid;
         snake.dx = 0;
     }
-    // right arrow key
+    // Right arrow key
     else if (e.which === 39 && snake.dx === 0) {
         snake.dx = grid;
         snake.dy = 0;
     }
-    // down arrow key
+    // Down arrow key
     else if (e.which === 40 && snake.dy === 0) {
         snake.dy = grid;
         snake.dx = 0;
@@ -260,7 +267,7 @@ document.addEventListener('keydown', function(e) {
 
 });
 
-// Mobile controls
+// Mobile controls A.A
 $('#top').on({ 'touchstart' : function(){ snake.dy = -grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
 $('#top').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
 
