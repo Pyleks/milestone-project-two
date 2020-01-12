@@ -9,10 +9,11 @@ var context = canvas.getContext('2d');
 var grid = 32;
 var count = 0;
 let score = 0;
-let scoreArray = [];
 let usernameArray = [];
-usernameArray.push(localStorage.getItem("favoriteName"));
-// console.log(usernameArray);
+let scoreArray =[];
+let index = 0;
+// player_information.push([(localStorage.getItem("favoriteName"))], []);
+
 
 
 // Imported Graphics
@@ -71,8 +72,6 @@ function blueappleScore() {
     if (random_number == 1) {
         console.log(random_number)
     }
-
-
 }
 
 function yellowappleScore() {
@@ -83,11 +82,28 @@ function yellowappleScore() {
 
 //Game Over - Add Score
 function addScore() {
+    usernameArray.push([(localStorage.getItem("favoriteName"))]);
     scoreArray.push(score);
-    let last_element = scoreArray[scoreArray.length - 1];
-    $(".final_nick_style").append("<br>" + `<p>${usernameArray}</p>`);
-    $(".final_score_style").append("<br>" + `<p>${last_element}</p>`);
+    console.log(usernameArray[usernameArray.length -1]);
+    let last_score = scoreArray[scoreArray.length - 1];
+    let lastNick = usernameArray[usernameArray.length -1];
+
+    for(index = 0; index < usernameArray.length; index++) {
+        console.log(usernameArray[index])
+    }
+    for(i = 0; i < scoreArray.length; i++) {
+        console.log(scoreArray[i]);
+
+    }
+
+    $(".final_nick_style").append("<br>" + `<p>${lastNick}</p>`);
+    $(".final_score_style").append("<br>" + `<p>${last_score}</p>`);
+
 }
+
+$(".play_againButton").click(function() {
+    $(".overlay").css("opacity", "0");
+});
 
 
 // game loop
@@ -187,11 +203,8 @@ function loop() {
                 // Yellow Apple
                 yellowApple.x = getRandomInt(0, 25) * grid;
                 yellowApple.y = getRandomInt(0, 25) * grid;
-                // document.getElementsByClassName("overlay").css("opacity: 1");
-                addScore();
                 $(".overlay").css("opacity", "1");
-
-
+                addScore();
                 score = 0
 
 
