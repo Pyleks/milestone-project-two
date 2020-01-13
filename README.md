@@ -70,6 +70,18 @@ Wireframe tool is
 
 
 
+### Responsive testing in Chrome and FireFox
+1. Landing Page:  
+    i. Open Landing page on full screen in Chrome and Firefox.  
+   ii. Open Developer tool.  
+  iii. Use responsive slider to confirm no breaking bugs with the responsiveness.  
+ iiii. Opened  
+
+2. Feedback Page:
+    i. 
+  
+ 
+
 
 
 ## Demo
