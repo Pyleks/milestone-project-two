@@ -156,7 +156,7 @@ scoring bord must collect the scores.
 ##### Feedback page  
 - The form did not scale correct from 577px width.
 ##### Game Page
-- Above 1025 width the game scaled incorrectly and removing the controls too early
+- Above 1025px width the game scaled incorrectly and removing the controls too early
 
 ### Interactivity
 Perfect, no bugs found on any interactive elements on any page, on any browser.
