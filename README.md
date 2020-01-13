@@ -115,7 +115,7 @@ guide the user to the correct landing page, or displaying the right menus.
 - Hoovering over all the links to correctly display the styling used on hoovering.
 
 ### Logic Testing in Chrome, Firefox and Edge.
-The importance of testing the logic of the website and the game across the browsers and devices
+3: The importance of testing the logic of the website and the game across the browsers and devices
 is to make sure that Javascript run correct on all popular browsers.
 
 #### Landing page play button nickname logic
@@ -125,7 +125,29 @@ This page is not allowing the player to start the game, unless the username with
 - Typing in 6 Characters, allowing player to enter game.
 
 #### Feedback logic
+To provide feedback, the user must fill inn all the fields to be able to submit the form.
 
+- Added only first name, and attempted to submit.
+- Added only last name, and attempted to submit.
+- Added only email, and attempted to submit.
+- Added only feedback, and attempted to submit.
+- Added first name, last name and feedback and attempted to submit.
+- Did not add anything and attempted to submit.
+- Added everything and attempted to submit.
+- Added first name, last name and email and attempted to submit.
+
+#### Game page logic
+For the game to run successful the points must accumulate correct, the controls for desktop/laptop and devices must work correct as well
+scoring bord must collect the scores.
+- Attempted to eat all 3 different apples, expecting the score to go up by 3.
+- Tried UP, DOWN, LEFT and RIGHT on keyboard.
+- Tried UP, DOWN, LEFT and RIGHT on mobile controls for both tablet and mobile device and table.
+- Tried UP, then DOWN to see if the snake would collide with itself on desktop.
+- Tried UP, then DOWN to see if the snake would collide with itself on and mobile device and table.
+- Killed the snake to display scoreboard.
+- Killed the snake 10 times to see if the scoreboard would out grow the allocated score board size.
+- Tried clicking new game.
+- Tried to move the snake outside of the border on each side, and top/down.
 
 
 ## Demo
