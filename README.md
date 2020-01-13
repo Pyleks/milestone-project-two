@@ -114,6 +114,17 @@ guide the user to the correct landing page, or displaying the right menus.
 - Clicking code link to have it direct us to the github project source.
 - Hoovering over all the links to correctly display the styling used on hoovering.
 
+### Logic Testing in Chrome, Firefox and Edge.
+The importance of testing the logic of the website and the game across the browsers and devices
+is to make sure that Javascript run correct on all popular browsers.
+
+#### Landing page play button nickname logic
+This page is not allowing the player to start the game, unless the username within 8 characters have been provided.
+- Clicked Play with no nickname added, making it display "Type in a Nickname"
+- Typing in a nickname above 8 characters long (past the max length), "making it display "Maximum 8 Characters"
+- Typing in 6 Characters, allowing player to enter game.
+
+#### Feedback logic
 
 
 
