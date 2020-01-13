@@ -71,12 +71,13 @@ Wireframe tool is
 
 
 ### Responsive testing in Chrome and FireFox
-1. Landing Page, Feedback Page, Snake Game Page, Tutorial Page: 
+1: Landing Page, Feedback Page, Snake Game Page, Tutorial Page: 
 These test were identical on all pages to ensure they are responsive to all device types. 
     
-    i. Open all pages on fullscreen in Chrome, Firefox and Edge identify that they all look the same.   
-   ii. Used responsive slider to ensure the content is shown correctly, especially the media content that is designed to only work on desktop
-  iii. Tested to open the pages on all sizes available in Chrome, Firefox, but not Edge, as it only had Slider available.
+- Open all pages on fullscreen in Chrome, Firefox and Edge identify that they all look the same.   
+- Used responsive slider to ensure the content is shown correctly, especially the media content that is designed to only work on desktop
+- Tested to open the pages on all sizes available in Chrome, Firefox, but not Edge, as it only had Slider available.
+
   
   <ol>
   <li>360 x 640 Galaxy S5</li>
@@ -87,9 +88,32 @@ These test were identical on all pages to ensure they are responsive to all devi
   <li>414 x 736 iPhone 6/7/8 Plus</li>
   <li>768 x 1024 iPad</li>
   <li>1024 x 1366 iPad Pro</li>
+   </ol>
+   
+### Interaction testing in Chrome, Firefox and Edge
+2: In this section we are testing if all the buttons and links are working correctly and
+guide the user to the correct landing page, or displaying the right menus.
+#### Landing Page
+- Clicking on Tutorial from Landing page, expecting it to show the rules correctly.
+- Clicking on Feedback, from Landing page expecting it to redirect us to Feedback correctly.
+- Clicking on the close button in tutorial and have it close the modal window.
+- Clicking on Code, from Landing page expecting it to redirect us to github project location correctly
+- Hoovering over all the links to correctly display the styling used on hoovering.
 
-  
- 
+#### Feedback Page
+- Clicking on Tutorial from Feedback, displaying the rules correct.
+- Clicking on the close button to close tutorial.
+- Clicking Home link to redirect to home page correct.
+- Clicking code link to have it direct us to the github project source.
+- Hoovering over all the links to correctly display the styling used on hoovering.
+
+#### Game Page
+- Clicking on Tutorial from Game, displaying the rules correct.
+- Clicking on the close button to close tutorial.
+- Clicking Home link to redirect to home page correct.
+- Clicking code link to have it direct us to the github project source.
+- Hoovering over all the links to correctly display the styling used on hoovering.
+
 
 
 
