@@ -149,6 +149,36 @@ scoring bord must collect the scores.
 - Tried clicking new game.
 - Tried to move the snake outside of the border on each side, and top/down.
 
+## Testing Summary
+### Responsiveness
+##### Landing page
+- One issue with scaling was found, where it did not remove desktop icons in time.  
+##### Feedback page  
+- The form did not scale correct from 577px width.
+##### Game Page
+- Above 1025 width the game scaled incorrectly and removing the controls too early
+
+### Interactivity
+Perfect, no bugs found on any interactive elements on any page, on any browser.
+
+### Logic
+##### Landing Page
+Perfect, no bugs found.
+##### Feedback Page
+Perfect, No bugs found.
+##### Game Page
+- If the player continue playing, the nickname and score outgrow the scoreboard.
+- The scores are not sorted correctly from highest to lowest score.
+- Worthy mention, bug with snake moving into it's own body when moving from right to left, left to right, up to down or down to up. *Fixed
+
+### HTML Validator
+- Reoccurring image tag missing on all pages *Fixed
+- Wrong type on a tag on all pages. *Fixed
+- Stray a tag that did not close anything on all apges. *Fixed
+
+### CSS Validator
+Perfect, no bugs found.
+
 
 
 ## Demo
