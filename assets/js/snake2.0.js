@@ -116,7 +116,7 @@ function addScore() {
 function loop() {
     requestAnimationFrame(loop);
     // Determines the game speed
-    if (++count < 5) {
+    if (++count < 6) {
         return;
     }
     count = 0;
@@ -258,9 +258,6 @@ function moveDown(snake) {
 }
 
 
-
-
-
 // Listen to keyboard events to move the snake
 document.addEventListener('keydown', function(e) {
 
@@ -292,32 +289,34 @@ $('#top').on({ 'touchstart' : function(){
     moveUp(snake);
     $(this).addClass("yellow_bg")
 }});
-
 $('#top').on({ 'touchend' : function(){
     $(this).removeClass("yellow_bg")
 }});
+
 
 $('#left').on({ 'touchstart' : function(){
     moveLeft(snake);
     $(this).addClass("yellow_bg")
 }});
-
 $('#left').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg") } });
+    $(this).removeClass("yellow_bg")
+}});
 
 $('#right').on({ 'touchstart' : function(){
     moveRight(snake);
     $(this).addClass("yellow_bg")
 }});
 $('#right').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg") } });
+    $(this).removeClass("yellow_bg")
+}});
 
 $('#down').on({ 'touchstart' : function(){
     moveDown(snake);
     $(this).addClass("yellow_bg")
 }});
 $('#down').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg") } });
+    $(this).removeClass("yellow_bg")
+}});
 
 
 // start the game
