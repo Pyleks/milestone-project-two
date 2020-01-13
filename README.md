@@ -124,7 +124,7 @@ This page is not allowing the player to start the game, unless the username with
 - Typing in a nickname above 8 characters long (past the max length), "making it display "Maximum 8 Characters"
 - Typing in 6 Characters, allowing player to enter game.
 
-#### Feedback logic
+#### Feedback logic test
 To provide feedback, the user must fill inn all the fields to be able to submit the form.
 
 - Added only first name, and attempted to submit.
@@ -136,7 +136,7 @@ To provide feedback, the user must fill inn all the fields to be able to submit 
 - Added everything and attempted to submit.
 - Added first name, last name and email and attempted to submit.
 
-#### Game page logic
+#### Game page logic test
 For the game to run successful the points must accumulate correct, the controls for desktop/laptop and devices must work correct as well
 scoring bord must collect the scores.
 - Attempted to eat all 3 different apples, expecting the score to go up by 3.
@@ -148,6 +148,7 @@ scoring bord must collect the scores.
 - Killed the snake 10 times to see if the scoreboard would out grow the allocated score board size.
 - Tried clicking new game.
 - Tried to move the snake outside of the border on each side, and top/down.
+
 
 
 ## Demo
