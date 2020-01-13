@@ -59,6 +59,19 @@ For feedback I am using
 Wireframe tool is
 [Balsamiq](https://balsamiq.com/)
 
+## Testing
+#### This website have been tested for the following.
+
+- Responsiveness
+- Interactivity
+- Logic
+- HTML Validator
+- CSS Validator
+
+
+
+
+
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
 
