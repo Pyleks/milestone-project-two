@@ -71,14 +71,23 @@ Wireframe tool is
 
 
 ### Responsive testing in Chrome and FireFox
-1. Landing Page:  
-    i. Open Landing page on full screen in Chrome and Firefox.  
-   ii. Open Developer tool.  
-  iii. Use responsive slider to confirm no breaking bugs with the responsiveness.  
- iiii. Opened  
+1. Landing Page, Feedback Page, Snake Game Page, Tutorial Page: 
+These test were identical on all pages to ensure they are responsive to all device types. 
+    
+    i. Open all pages on fullscreen in Chrome, Firefox and Edge identify that they all look the same.   
+   ii. Used responsive slider to ensure the content is shown correctly, especially the media content that is designed to only work on desktop
+  iii. Tested to open the pages on all sizes available in Chrome, Firefox, but not Edge, as it only had Slider available.
+  
+  <ol>
+  <li>360 x 640 Galaxy S5</li>
+  <li>375 x 667 iPhone 6/7/8</li>
+  <li>375 x 812 iPhone X</li>
+  <li>411 x 731 Pixel 2</li>
+  <li>411 x 823 Pixel 2 XL</li>
+  <li>414 x 736 iPhone 6/7/8 Plus</li>
+  <li>768 x 1024 iPad</li>
+  <li>1024 x 1366 iPad Pro</li>
 
-2. Feedback Page:
-    i. 
   
  
 

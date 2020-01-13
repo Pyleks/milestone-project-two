@@ -222,52 +222,102 @@ function loop() {
     context.fillStyle = "white";
     context.font = "45px Changa one";
     context.fillText(score, 11.7 * grid, 1.1 * grid);
-
-
 }
 
-// Listen to keyboard events to move the snake
-document.addEventListener('keydown', function(e) {
-// Prevent snake from backtracking on itself by checking that it's
-// Not already moving on the same axis (pressing left while moving
-// Left won't do anything, and pressing right while moving left
+// A.A and Aaron Sinnott
+// These functions used by both keyboard controls and touch-input
+// Making the snake move correctly, and unable to move into it's own body by
+// Clicking LEFT then RIGHT, or UP then DOWN.
 // Shouldn't let you collide with your own body)
-
-    // Left arrow key
-    if (e.which === 37 && snake.dx === 0) {
-        snake.dx = -grid;
-        snake.dy = 0;
-    }
-    // Up arrow key
-    else if (e.which === 38 && snake.dy === 0) {
+function moveUp(snake) {
+    if (snake.dy === 0) {
         snake.dy = -grid;
         snake.dx = 0;
     }
-    // Right arrow key
-    else if (e.which === 39 && snake.dx === 0) {
+}
+
+function moveLeft(snake) {
+    if (snake.dx === 0) {
+        snake.dx = -grid;
+        snake.dy = 0;
+    }
+}
+
+function moveRight(snake) {
+    if (snake.dx ===0 ) {
         snake.dx = grid;
         snake.dy = 0;
     }
-    // Down arrow key
-    else if (e.which === 40 && snake.dy === 0) {
+}
+
+function moveDown(snake) {
+    if (snake.dy === 0) {
         snake.dy = grid;
         snake.dx = 0;
+    }
+}
+
+
+
+
+
+// Listen to keyboard events to move the snake
+document.addEventListener('keydown', function(e) {
+
+
+    // Up arrow key
+    if (e.which === 38) {
+        moveUp(snake)
+    }
+
+    // Left arrow key
+    else if (e.which === 37) {
+        moveLeft(snake)
+    }
+
+    // Right arrow key
+    else if (e.which === 39) {
+        moveRight(snake)
+    }
+    // Down arrow key
+    else if (e.which === 40) {
+        moveDown(snake)
     }
 
 });
 
-// Mobile controls A.A
-$('#top').on({ 'touchstart' : function(){ snake.dy = -grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
-$('#top').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
 
-$('#left').on({ 'touchstart' : function(){ snake.dx = -grid; snake.dy = 0; $(this).addClass("yellow_bg") } });
-$('#left').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+// Mobile controls A.A & Aaron Sinnott
+$('#top').on({ 'touchstart' : function(){
+    moveUp(snake);
+    $(this).addClass("yellow_bg")
+}});
 
-$('#right').on({ 'touchstart' : function(){ snake.dx = grid; snake.dy = 0; $(this).addClass("yellow_bg") } });
-$('#right').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+$('#top').on({ 'touchend' : function(){
+    $(this).removeClass("yellow_bg")
+}});
 
-$('#down').on({ 'touchstart' : function(){ snake.dy = grid; snake.dx = 0; $(this).addClass("yellow_bg") } });
-$('#down').on({ 'touchend' : function(){  $(this).removeClass("yellow_bg") } });
+$('#left').on({ 'touchstart' : function(){
+    moveLeft(snake);
+    $(this).addClass("yellow_bg")
+}});
+
+$('#left').on({ 'touchend' : function(){
+    $(this).removeClass("yellow_bg") } });
+
+$('#right').on({ 'touchstart' : function(){
+    moveRight(snake);
+    $(this).addClass("yellow_bg")
+}});
+$('#right').on({ 'touchend' : function(){
+    $(this).removeClass("yellow_bg") } });
+
+$('#down').on({ 'touchstart' : function(){
+    moveDown(snake);
+    $(this).addClass("yellow_bg")
+}});
+$('#down').on({ 'touchend' : function(){
+    $(this).removeClass("yellow_bg") } });
 
 
 // start the game
