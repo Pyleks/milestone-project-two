@@ -58,6 +58,8 @@ section of the website, writing their thoughts on the game.
 
 ## Technologies
 
+
+### Languages
 | Languages  | Usage |
 | :------------- | :------------- |
 | [HTML](https://www.w3schools.com/html/)  | Create the foundation of the website  |
@@ -66,7 +68,7 @@ section of the website, writing their thoughts on the game.
 
 
 
-## Libraries
+### Libraries
 
 |Libraries  |Usage  |
 | :-------------| :-------------|
@@ -77,7 +79,7 @@ section of the website, writing their thoughts on the game.
 
 
 
-## Graphic design tools
+### Graphic design tools
 | Tools  | Usage |
 | :------------- | :------------- |
 | [Krita](https://krita.org/en/)  | For designing all graphic content  |
