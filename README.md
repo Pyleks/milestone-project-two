@@ -246,7 +246,7 @@ Steps to deploy the website from GitHub.
 
 ## Credits
 #### Snake Game Origin Code
-This game was only possible thanks to GitHub user Straker.   
+This game was only possible thanks to GitHub user **Straker**.   
 The code have been marked with A.A for all code done by me.
 https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4
 
