@@ -40,24 +40,26 @@ everywhere with cross compatibility built right into the game.
 [Game over overlay Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Gameover%20Overlay%20Wireframe.pdf)  
 [Tutorial all sizes Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tutorial%20all%20sizes%20Wireframe.pdf)  
 
-## Features
-- Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
-
-- Feature 2: The games comes with multiple "food types", providing different twists and points each type.
-
-- Feature 3: Once the player have finished the game by accidentally hitting the wall or the body of the snake, 
-they get to see their highscore on a separate window.
-
-- Feature 4: We welcome our players to provide feedback by visiting our feedback
-section of the website, writing their thoughts on the game.   
+## Features  
+#### Existing Features
+- Feature 1: Allow the user to try a more up to date cross platform snake game.
+- Feature 2: Multiple Food types for different points and growth to the snake.
+- Feature 3: Open source development, allowing players to contribute in a more meaningful way.
+- Feature 4: Fully working feedback form to pass on suggestions directly to my email.
 
 #### Features Left to Implement
+- Random events, to offer a more unexpected gameplay.
+- More maps.
+- Better handling of points.
+- Option to play at different speed for the snake to provide different difficulty.
 
-- Adding multiple maps.
-- Including randomized fruit types and events.
+#### Planned Features
+- Updating the method for handling user points.
+- Link the game up to a online database so players can fight against each other to get the best score
+
+
 
 ## Technologies
-
 
 ### Languages
 | Languages  | Usage |
@@ -86,11 +88,11 @@ section of the website, writing their thoughts on the game.
 | [Paint 3D](https://www.microsoft.com/en-ie/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)  | Pre-work on graphic content  |
 | [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint)  | Rough graphic content  |
 
-## API
+### API
 For feedback I am using
 [mailJS](https://www.emailjs.com/)
 
-## Wireframe tools
+### Wireframe tools
 Wireframe tool is
 [Balsamiq](https://balsamiq.com/)
 
