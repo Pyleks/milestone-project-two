@@ -40,6 +40,11 @@ everywhere with cross compatibility built right into the game.
 [Game over overlay Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Gameover%20Overlay%20Wireframe.pdf)  
 [Tutorial all sizes Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tutorial%20all%20sizes%20Wireframe.pdf)  
 
+## Design Decisions
+![alt text](assets/images/main_colors.png)   
+
+
+
 ## Features  
 #### Existing Features
 - Feature 1: Allow the user to try a more up to date cross platform snake game.
