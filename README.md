@@ -33,6 +33,13 @@ everywhere with cross compatibility built right into the game.
 
 ![alt text](assets/images/all_size.png)
 
+### WireFrames
+[Desktop Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Desktop%20Wireframes.pdf)  
+[Tablet Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tablet%20Wireframes.pdf)  
+[Smartphone Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Smartphone%20Wireframes.pdf)  
+[Game over overlay Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Gameover%20Overlay%20Wireframe.pdf)  
+[Tutorial all sizes Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tutorial%20all%20sizes%20Wireframe.pdf)  
+
 ## Features
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
 
