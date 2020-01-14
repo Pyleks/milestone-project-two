@@ -60,9 +60,9 @@ section of the website, writing their thoughts on the game.
 
 | Languages  | Usage |
 | :------------- | :------------- |
-| HTML  | Create the foundation of the website  |
-| CSS  | Applying styling and mobile size format  |
-| JavaScript  | Add logic to the website and the game  |
+| [HTML](https://www.w3schools.com/html/)  | Create the foundation of the website  |
+| [CSS](https://www.w3schools.com/css/)  | Applying styling and mobile size format  |
+| [JavaScript](https://www.w3schools.com/js/)  | Add logic to the website and the game  |
 
 
 
