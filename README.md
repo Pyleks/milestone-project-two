@@ -9,11 +9,15 @@ for desktop/laptop tablets and phones.
 
 
 ## UX
-This website/game have been designed to early pull in the visitor to try out the game without too much interaction,
+This website/game have been designed to easily pull in the visitor to kill some time by trying out a brand new
+snake game.
 
-I also encourage the visitors to visit the code itself to make their feedback even more relevant.
-
-Strong but not overwhelming colors have been chosen to emphasis on the simplicity.
+1. **Playing** is the number one emphasis on the website, drawing in the user, and let them try out a
+traditional snake game.
+2. **Open Source** After trying the game, I have provided the means to let the visitor see the code that runs the game
+so they can assist with further development through the feedback section.
+3. **Cross Compatibility** Enjoy the game? why only play it on your desktop, also take it with you on  the bus, in the car,
+everywhere with cross compatibility built right into the game.
 
 ## Features
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
