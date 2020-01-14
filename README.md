@@ -59,19 +59,27 @@ section of the website, writing their thoughts on the game.
 ## Technologies
 
 | Languages  | Usage |
-| ------------- | ------------- |
+| :------------- | :------------- |
 | HTML  | Create the foundation of the website  |
 | CSS  | Applying styling and mobile size format  |
+| JavaScript  | Add logic to the website and the game  |
+
+
+
+## Libraries
+
+|Libraries  |Usage  |
+| :-------------| :-------------|
 | Bootstrap  | Add styling and grid  |
 | FontAwesome  | Importing website icons  |
-| jQuery  | Apply interactivity and data storage  |
-| JavaScript  | Add logic to the website and the game  |
-| Google Fonts  | For all fonts on website  |
+| jQuery | Apply interactivity and data storage  |
+| Google Fonts | For all fonts on website  |
+
 
 
 ## Graphic design tools
 | Tools  | Usage |
-| ------------- | ------------- |
+| :------------- | :------------- |
 | [Krita](https://krita.org/en/)  | For designing all graphic content  |
 | [Paint 3D](https://www.microsoft.com/en-ie/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)  | Pre-work on graphic content  |
 | [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint)  | Rough graphic content  |
