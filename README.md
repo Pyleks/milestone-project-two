@@ -33,7 +33,7 @@ everywhere with cross compatibility built right into the game.
 
 ![alt text](assets/images/all_size.png)
 
-### WireFrames
+### Wireframes
 [Desktop Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Desktop%20Wireframes.pdf)  
 [Tablet Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tablet%20Wireframes.pdf)  
 [Smartphone Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Smartphone%20Wireframes.pdf)  
