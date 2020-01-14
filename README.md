@@ -19,6 +19,20 @@ so they can assist with further development through the feedback section.
 3. **Cross Compatibility** Enjoy the game? why only play it on your desktop, also take it with you on  the bus, in the car,
 everywhere with cross compatibility built right into the game.
 
+### User Stories
+> Browsing different browser games to kill some time.  
+
+> Looking for a snake game recently developed to have fun.  
+
+> Sitting on the bus, looking for a game to kill some time.  
+
+> As a developer I want to find a open source game to help out on.
+
+> As a user I want to visit different browser games, and happen to come upon this.
+
+
+
+
 ## Features
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
 
