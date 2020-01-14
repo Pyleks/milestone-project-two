@@ -70,10 +70,10 @@ section of the website, writing their thoughts on the game.
 
 |Libraries  |Usage  |
 | :-------------| :-------------|
-| Bootstrap  | Add styling and grid  |
-| FontAwesome  | Importing website icons  |
-| jQuery | Apply interactivity and data storage  |
-| Google Fonts | For all fonts on website  |
+| [Bootstrap](https://getbootstrap.com/)  | Add styling and grid  |
+| [Font Awesome](https://fontawesome.com/)  | Importing website icons  |
+| [jQuery](https://jquery.com/) | Apply interactivity and data storage  |
+| [Google Fonts](https://fonts.google.com/) | For all fonts on website  |
 
 
 
