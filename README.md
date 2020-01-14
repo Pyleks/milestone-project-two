@@ -14,7 +14,7 @@ snake game.
 
 1. **Playing** is the number one emphasis on the website, drawing in the user, and let them try out a
 traditional snake game.
-2. **Open Source** After trying the game, I have provided the means to let the visitor see the code that runs the game
+2. **Open Source** Is the backbone of the development the BlockWorm Adventures, I have provided the means to let the visitor see the code that runs the game
 so they can assist with further development through the feedback section.
 3. **Cross Compatibility** Enjoy the game? why only play it on your desktop, also take it with you on  the bus, in the car,
 everywhere with cross compatibility built right into the game.
