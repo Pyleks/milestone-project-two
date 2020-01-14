@@ -223,8 +223,28 @@ scoring bord must collect the scores.
 |:------------- |:-------------| :-----:|
 | style.css     | No Bugs | Good |
 
+## Deployment
+Steps to deploy the website from GitHub.
+1. Go to [GitHub](https://github.com/Pyleks).
+2. Click Repositories.
+3. Locate milestone-project-two
+4. Open the repository [milestone-project-two](https://github.com/Pyleks/milestone-project-two)
+5. Click Settings.
+6. Scroll down to GitHub Pages.
+7. Select Master branch under Source.  
+8. Site Deployed under URL: https://pyleks.github.io/milestone-project-two/
 
+#### How to clone this website
+1. Go to [GitHub](https://github.com/Pyleks).
+2. Click Repositories.
+3. Locate milestone-project-two
+4. Open the repository [milestone-project-two](https://github.com/Pyleks/milestone-project-two)
+5. Click the green button clone or download
+6. Clone from displayed URL: https://github.com/Pyleks/milestone-project-two.git
+7. Clone with following command in terminal <code>git clone https://github.com/Pyleks/milestone-project-two.git</code>
+8. Remove connection from repository with the following command in the terminal <code>git remote rm origin</code>
 
+## Credits
 
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
