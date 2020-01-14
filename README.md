@@ -4,7 +4,8 @@ ___
 Milestone Project 2 - Interactive Frontend Development - Code Institute
 
 Blockworm Adventure is a game designed to provide a updated version of the old but loved snake
-game, with better graphics and some new unexpected twists to experience the game again with 
+game, with better graphics and some new unexpected twists to experience the game again with improved controls
+for desktop/laptop tablets and phones.
 
 
 ## UX
