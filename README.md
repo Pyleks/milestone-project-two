@@ -9,8 +9,7 @@ for desktop/laptop tablets and phones.
 
 
 ## UX
-The website/game is designed in a simplistic manager so the visitors can easily try out the game
-but also assist with further development with a built in feedback form API.
+This website/game have been designed to early pull in the visitor to try out the game without too much interaction,
 
 I also encourage the visitors to visit the code itself to make their feedback even more relevant.
 
