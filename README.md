@@ -245,6 +245,25 @@ Steps to deploy the website from GitHub.
 8. Remove connection from repository with the following command in the terminal <code>git remote rm origin</code>
 
 ## Credits
+#### Snake Game Origin Code
+This game was only possible thanks to GitHub user Straker.   
+The code have been marked with A.A for all code done by me.
+https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4
+
+#### Honorary mention
+Snake game made by YouTuber Code Explained provided some crucial mathematical randomize in the snake code
+https://www.youtube.com/watch?v=9TcU2C1AACw
+
+#### Touch Screen Controls
+This was improved upon immensely by Aaron Sinnott (Mentor)
+
+## Licensed and purchased Images 
+
+[Snake Image ](https://www.shutterstock.com/image-vector/earth-worm-cartoon-outlined-character-black-452659024)  
+[Tree Image](https://www.shutterstock.com/image-vector/tree-silhouette-root-489511564)
+
+These 2 images are used for logos and game background.
+
 
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
