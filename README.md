@@ -41,7 +41,16 @@ everywhere with cross compatibility built right into the game.
 [Tutorial all sizes Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tutorial%20all%20sizes%20Wireframe.pdf)  
 
 ## Design Decisions
+
+#### Color Scheme    
 ![alt text](assets/images/main_colors.png)   
+These were the main colors due to the simplicity of the the website,
+making them go well together, as well making the green stand out in the light blue.
+as well working excellent with navigation bar hoover.
+
+#### Overall Simple Design
+Following less is more, making all the right elements stand out, so the visitor knows exactly
+what they see and where to go the moment they open the website.
 
 
 
