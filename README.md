@@ -31,7 +31,7 @@ everywhere with cross compatibility built right into the game.
 > As a user I want to visit different browser games, and happen to come upon this.
 
 
-
+![alt text](assets/images/all_size.png)
 
 ## Features
 - Feature 1: allows users to try them self at a new type of snake game by controlling the snake to capture as much food as possible.
