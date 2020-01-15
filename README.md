@@ -3,7 +3,7 @@ ___
 
 Milestone Project 2 - Interactive Frontend Development - Code Institute
 
-Blockworm Adventure is a game designed to provide a updated version of the old but loved snake
+Blockworm Adventure is a game designed to provide an updated version of the old but loved snake
 game, with better graphics and some new unexpected twists to experience the game again with improved controls
 for desktop/laptop tablets and phones.
 
@@ -14,7 +14,7 @@ snake game.
 
 1. **Playing** is the number one emphasis on the website, drawing in the user, and let them try out a
 traditional snake game.
-2. **Open Source** is the backbone of the development the BlockWorm Adventures, I have provided the means to let the visitor see the code that runs the game
+2. **Open Source** is the backbone of developing BlockWorm Adventures, I have provided the means to let the visitor see the code that runs the game
 so they can assist with further development through the feedback section.
 3. **Cross Compatibility** Enjoy the game? why only play it on your desktop, also take it with you on  the bus, in the car,
 everywhere with cross compatibility built right into the game.
@@ -22,13 +22,13 @@ everywhere with cross compatibility built right into the game.
 ### User Stories
 > Browsing different browser games to kill some time.  
 
-> Looking for a snake game recently developed to have fun.  
+> Looking for a snake game that recently got developed to have fun. 
 
 > Sitting on the bus, looking for a game to kill some time.  
 
-> As a developer I want to find a open source game to help out on.
+> As a developer I want to find an open source game to help with.
 
-> As a user I want to visit different browser games, and happen to come upon this.
+> As a user I want to visit different browser games and happen to come upon this.
 
 
 ![alt text](assets/images/all_size.png)
@@ -37,16 +37,16 @@ everywhere with cross compatibility built right into the game.
 [Desktop Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Desktop%20Wireframes.pdf)  
 [Tablet Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tablet%20Wireframes.pdf)  
 [Smartphone Wireframes](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Smartphone%20Wireframes.pdf)  
-[Game over overlay Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Gameover%20Overlay%20Wireframe.pdf)  
+[Game Over overlay Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Gameover%20Overlay%20Wireframe.pdf)  
 [Tutorial all sizes Wireframe](https://github.com/Pyleks/milestone-project-two/blob/master/assets/wireframes/Tutorial%20all%20sizes%20Wireframe.pdf)  
 
 ## Design Decisions
 
 #### Color Scheme    
 ![alt text](assets/images/main_colors.png)   
-These were the main colors due to the simplicity of the the website,
+These were the main colours due to the simplicity of the website,
 making them go well together, as well making the green stand out in the light blue.
-as well working excellent with navigation bar hoover.
+as well working excellent with the navigation bar hoover colour.
 
 #### Overall Simple Design
 Following less is more, making all the right elements stand out, so the visitor knows exactly
@@ -57,19 +57,19 @@ what they see and where to go the moment they open the website.
 ## Features  
 #### Existing Features
 - Feature 1: Allow the user to try a more up to date cross platform snake game.
-- Feature 2: Multiple Food types for different points and growth to the snake.
+- Feature 2: Multiple food types for different points and growth to the snake.
 - Feature 3: Open source development, allowing players to contribute in a more meaningful way.
 - Feature 4: Fully working feedback form to pass on suggestions directly to my email.
 
 #### Features Left to Implement
 - Random events, to offer a more unexpected gameplay.
 - More maps.
-- Better handling of points.
-- Option to play at different speed for the snake to provide different difficulty.
+- Better handling of score.
+- Option to play at different speeds for the snake to provide different difficulty.
 
 #### Planned Features
 - Updating the method for handling user points.
-- Link the game up to a online database so players can fight against each other to get the best score
+- Link the game up to an online database so players can fight against each other to get the best score.
 
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
@@ -112,7 +112,7 @@ Wireframe tool is
 [Balsamiq](https://balsamiq.com/)
 
 ## Testing
-#### This website have been tested for the following.
+#### This website has been tested for the following
 
 - Responsiveness
 - Interactivity
@@ -124,10 +124,10 @@ Wireframe tool is
 
 ### Responsive testing in Chrome and FireFox
 1: Landing Page, Feedback Page, Snake Game Page, Tutorial Page: 
-These test were identical on all pages to ensure they are responsive to all device types. 
+These tests were identical on all pages to ensure they are responsive to all device types. 
     
-- Open all pages on fullscreen in Chrome, Firefox and Edge identify that they all look the same.   
-- Used responsive slider to ensure the content is shown correctly, especially the media content that is designed to only work on desktop
+- Open all pages in full screen within Chrome, Firefox and Edge, identify that they all look the same.   
+- Used responsive slider to ensure that the content is shown correctly, especially the media content that is designed to only work on desktop.
 - Tested to open the pages on all sizes available in Chrome, Firefox, but not Edge, as it only had Slider available.
 
   
@@ -146,50 +146,50 @@ These test were identical on all pages to ensure they are responsive to all devi
 2: In this section we are testing if all the buttons and links are working correctly and
 guide the user to the correct landing page, or displaying the right menus.
 #### Landing Page
-- Clicking on Tutorial from Landing page, expecting it to show the rules correctly.
-- Clicking on Feedback, from Landing page expecting it to redirect us to Feedback correctly.
+- Clicking on tutorial from landing page, expecting it to show the rules correctly.
+- Clicking on feedback, from landing page expecting it to redirect us to Feedback correctly.
 - Clicking on the close button in tutorial and have it close the modal window.
-- Clicking on Code, from Landing page expecting it to redirect us to github project location correctly
+- Clicking on code, from landing page expecting it to redirect us to GitHub project location correctly.
 - Hoovering over all the links to correctly display the styling used on hoovering.
 
 #### Feedback Page
-- Clicking on Tutorial from Feedback, displaying the rules correct.
+- Clicking on tutorial from feedback, displaying the rules correct.
 - Clicking on the close button to close tutorial.
-- Clicking Home link to redirect to home page correct.
-- Clicking code link to have it direct us to the github project source.
+- Clicking home link to redirect to home page correct.
+- Clicking code link to have it direct us to the GitHub project source.
 - Hoovering over all the links to correctly display the styling used on hoovering.
 
 #### Game Page
-- Clicking on Tutorial from Game, displaying the rules correct.
+- Clicking on tutorial from the game, displaying the rules correct.
 - Clicking on the close button to close tutorial.
-- Clicking Home link to redirect to home page correct.
-- Clicking code link to have it direct us to the github project source.
+- Clicking home link to redirect to home page correct.
+- Clicking code link to have it direct us to the GitHub project source.
 - Hoovering over all the links to correctly display the styling used on hoovering.
 
 ### Logic Testing in Chrome, Firefox and Edge.
 3: The importance of testing the logic of the website and the game across the browsers and devices
-is to make sure that Javascript run correct on all popular browsers.
+is to make sure that JavaScript runs correct on all popular browsers.
 
 #### Landing page play button nickname logic
-This page is not allowing the player to start the game, unless the username within 8 characters have been provided.
-- Clicked Play with no nickname added, making it display "Type in a Nickname"
-- Typing in a nickname above 8 characters long (past the max length), "making it display "Maximum 8 Characters"
+This page is not allowing the player to start the game, unless a username within 8 characters have been provided.
+- Clicked Play with no nickname added, making it display "Type in a Nickname".
+- Typing in a nickname above 8 characters long (past the max length), "making it display "Maximum 8 Characters".
 - Typing in 6 Characters, allowing player to enter game.
 
 #### Feedback logic test
 To provide feedback, the user must fill inn all the fields to be able to submit the form.
 
-- Added only first name, and attempted to submit.
-- Added only last name, and attempted to submit.
-- Added only email, and attempted to submit.
-- Added only feedback, and attempted to submit.
+- Added only first name and attempted to submit.
+- Added only last name and attempted to submit.
+- Added only email and attempted to submit.
+- Added only feedback and attempted to submit.
 - Added first name, last name and feedback and attempted to submit.
 - Did not add anything and attempted to submit.
 - Added everything and attempted to submit.
 - Added first name, last name and email and attempted to submit.
 
 #### Game page logic test
-For the game to run successful the points must accumulate correct, the controls for desktop/laptop and devices must work correct as well
+For the game to run successful the score must accumulate correct, the controls for desktop/laptop and devices must work correct as well
 scoring bord must collect the scores.
 - Attempted to eat all 3 different apples, expecting the score to go up by 3.
 - Tried UP, DOWN, LEFT and RIGHT on keyboard.
@@ -197,7 +197,7 @@ scoring bord must collect the scores.
 - Tried UP, then DOWN to see if the snake would collide with itself on desktop.
 - Tried UP, then DOWN to see if the snake would collide with itself on and mobile device and table.
 - Killed the snake to display scoreboard.
-- Killed the snake 10 times to see if the scoreboard would out grow the allocated score board size.
+- Killed the snake 10 times to see if the scoreboard would outgrow the allocated score board size.
 - Tried clicking new game.
 - Tried to move the snake outside of the border on each side, and top/down.
 
@@ -208,21 +208,21 @@ scoring bord must collect the scores.
 |:------------- |:-------------| :-----:|
 | Landing Page     | One issue with scaling was found, where it did not remove desktop icons in time. | Fixed |
 | Feedback Page     | The form did not scale correct from 577px width.      | Not Fixed |
-| Game Page | Above 1025px width the game scaled incorrectly and removing the controls too early     | Not Fixed |
-| Game Page | On some smaller desktop screens the canvas becomes too big     | Not Fixed |
+| Game Page | Above 1025px width the game scaled incorrectly and removing the controls too early.     | Not Fixed |
+| Game Page | On some smaller desktop screens the canvas becomes too big.     | Not Fixed |
 
 ### Interactivity
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | No Bugs | Good |
-| Feedback Page     | No Bugs       |   Good |
-| Game Page | No Bugs      |    Good |
+| Landing Page     | No Bugs. | Good |
+| Feedback Page     | No Bugs.       |   Good |
+| Game Page | No Bugs.      |    Good |
 
 ### Logic
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | No Bugs | Good |
-| Feedback Page     | No Bugs       |   Good |
+| Landing Page     | No Bugs. | Good |
+| Feedback Page     | No Bugs.       |   Good |
 | Game Page | If the player continue playing, the nickname and score outgrow the scoreboard.      | Not Fixed |
 | Game Page | The scores are not sorted correctly from highest to lowest score.      |    Not Fixed |
 | Game Page | Bug with snake moving into it's own body when moving from right to left, left to right, up to down or down to up.      |    Fixed |
@@ -230,35 +230,35 @@ scoring bord must collect the scores.
 ### HTML Validator
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| All Pages     | Reoccurring image tag missing on all pages | Fixed |
-| All Pages     |  Wrong type on (a) tag       |   Fixed |
-| All pages | Stray a tag that did not close anything      |    Fixed |
+| All Pages     | Reoccurring image tag missing on all pages. | Fixed |
+| All Pages     |  Wrong type on (a) tag.       |   Fixed |
+| All pages | Stray a tag that did not close anything.      |    Fixed |
 
 ### CSS Validator
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| style.css     | No Bugs | Good |
+| style.css     | No Bugs. | Good |
 
 ## Deployment
 Steps to deploy the website from GitHub.
 1. Go to [GitHub](https://github.com/Pyleks).
 2. Click Repositories.
-3. Locate milestone-project-two
+3. Locate milestone-project-two.
 4. Open the repository [milestone-project-two](https://github.com/Pyleks/milestone-project-two)
 5. Click Settings.
 6. Scroll down to GitHub Pages.
 7. Select Master branch under Source.  
-8. Site Deployed under URL: https://pyleks.github.io/milestone-project-two/
+8. Site Deployed under URL: https://pyleks.github.io/milestone-project-two/.
 
 #### How to clone this website
 1. Go to [GitHub](https://github.com/Pyleks).
 2. Click Repositories.
-3. Locate milestone-project-two
-4. Open the repository [milestone-project-two](https://github.com/Pyleks/milestone-project-two)
-5. Click the green button clone or download
-6. Clone from displayed URL: https://github.com/Pyleks/milestone-project-two.git
-7. Clone with following command in terminal <code>git clone https://github.com/Pyleks/milestone-project-two.git</code>
-8. Remove connection from repository with the following command in the terminal <code>git remote rm origin</code>
+3. Locate milestone-project-two.
+4. Open the repository [milestone-project-two](https://github.com/Pyleks/milestone-project-two).
+5. Click the green button clone or download.
+6. Clone from displayed URL: https://github.com/Pyleks/milestone-project-two.git.
+7. Clone with following command in terminal <code>git clone https://github.com/Pyleks/milestone-project-two.git</code>.
+8. Remove connection from repository with the following command in the terminal <code>git remote rm origin</code>.
 
 ## Credits
 #### Snake Game Origin Code
@@ -266,26 +266,26 @@ This game was only possible thanks to GitHub user [Straker](https://gist.github.
 The code have been marked with A.A for all code done by me.
 
 
-#### Honorary mention
-Snake game made by YouTuber [Code Explained](https://www.youtube.com/watch?v=9TcU2C1AACw) provided some crucial mathematical randomize in the snake code
+#### Honourable mention
+Snake game made by YouTuber [Code Explained](https://www.youtube.com/watch?v=9TcU2C1AACw) provided some crucial mathematical randomize in the snake code.
 
 
 #### Touch Screen Controls
-This was improved upon immensely by Aaron Sinnott (Mentor)
+This was improved upon immensely by Aaron Sinnott (Mentor).
 
 #### Responsive README image
-Was only possible thanks to [am.i.responsive](http://ami.responsivedesign.is/)
+Was only possible thanks to [am.i.responsive](http://ami.responsivedesign.is/).
 
 #### CSS Reset
 Was acquired from github account from [DavidWells](https://gist.github.com/DavidWells/18e73022e723037a50d6)
-Which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/)
+Which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/).
 
 #### Looping Text
 This code was acquired from [stackoverflow](https://stackoverflow.com/questions/50495797/how-to-loop-changing-text-with-html-js)  
-And modified for my project
+And modified for my project.
 
 #### Icons
-The 3 icons is from Font Awesome   
+The 3 icons is from [Font Awesome](https://fontawesome.com/)   .
 ![alt text](assets/images/icons.png)
 
 #### Font
