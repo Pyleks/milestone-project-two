@@ -272,6 +272,16 @@ https://www.youtube.com/watch?v=9TcU2C1AACw
 #### Touch Screen Controls
 This was improved upon immensely by Aaron Sinnott (Mentor)
 
+#### Responsive README image
+Was only possible thanks to [am.i.responsive](http://ami.responsivedesign.is/)
+
+#### CSS Reset
+Was acquired from github account from [DavidWells](https://gist.github.com/DavidWells/18e73022e723037a50d6)
+Which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/)
+
+
+
+
 ## Licensed and purchased Images 
 
 [Snake Image ](https://www.shutterstock.com/image-vector/earth-worm-cartoon-outlined-character-black-452659024)  
