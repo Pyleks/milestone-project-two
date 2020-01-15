@@ -79,9 +79,9 @@ Try the game here: https://pyleks.github.io/milestone-project-two/
 ### Languages
 | Languages  | Usage |
 | :------------- | :------------- |
-| [HTML](https://www.w3schools.com/html/)  | Create the foundation of the website  |
-| [CSS](https://www.w3schools.com/css/)  | Applying styling and mobile size format  |
-| [JavaScript](https://www.w3schools.com/js/)  | Add logic to the website and the game  |
+| [HTML](https://www.w3schools.com/html/)  | Create the foundation of the website.  |
+| [CSS](https://www.w3schools.com/css/)  | Applying styling and mobile size format.  |
+| [JavaScript](https://www.w3schools.com/js/)  | Add logic to the website and the game.  |
 
 
 
@@ -89,10 +89,10 @@ Try the game here: https://pyleks.github.io/milestone-project-two/
 
 |Libraries  |Usage  |
 | :-------------| :-------------|
-| [Bootstrap](https://getbootstrap.com/)  | Add styling and grid  |
-| [Font Awesome](https://fontawesome.com/)  | Importing website icons  |
-| [jQuery](https://jquery.com/) | Apply interactivity and data storage  |
-| [Google Fonts](https://fonts.google.com/) | For all fonts on website  |
+| [Bootstrap](https://getbootstrap.com/)  | Add styling and grid.  |
+| [Font Awesome](https://fontawesome.com/)  | Importing website icons.  |
+| [jQuery](https://jquery.com/) | Apply interactivity and data storage.  |
+| [Google Fonts](https://fonts.google.com/) | For all fonts on website.  |
 
 
 
@@ -105,11 +105,11 @@ Try the game here: https://pyleks.github.io/milestone-project-two/
 
 ### API
 For feedback I am using
-[mailJS](https://www.emailjs.com/)
+[mailJS](https://www.emailjs.com/).
 
 ### Wireframe tools
 Wireframe tool is
-[Balsamiq](https://balsamiq.com/)
+[Balsamiq](https://balsamiq.com/).
 
 ## Testing
 #### This website has been tested for the following
