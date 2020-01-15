@@ -225,15 +225,15 @@ This was tested to make sure the JavaScript code did not have any major unnotice
 ### Interactivity
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | No Bugs. | Good |
-| Feedback Page     | No Bugs.       |   Good |
-| Game Page | No Bugs.      |    Good |
+| Landing Page     | No bugs. | Good |
+| Feedback Page     | No bugs.       |   Good |
+| Game Page | No bugs.      |    Good |
 
 ### Logic
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | No Bugs. | Good |
-| Feedback Page     | No Bugs.       |   Good |
+| Landing Page     | No bugs. | Good |
+| Feedback Page     | No bugs.       |   Good |
 | Game Page | If the player continue playing, the nickname and score outgrow the scoreboard.      | Not Fixed |
 | Game Page | The scores are not sorted correctly from highest to lowest score.      |    Not Fixed |
 | Game Page | Bug with snake moving into it's own body when moving from right to left, left to right, up to down or down to up.      |    Fixed |
@@ -241,10 +241,10 @@ This was tested to make sure the JavaScript code did not have any major unnotice
 ### JSHint
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| email.js     | No Bugs. | Good |
-| global_JS.js     | Missing semicolon       |   Fixed |
-| script.js | No Bugs.      | Good |
-| snake2.0.js |  Missing semicolon     |   Fixed |
+| email.js     | No bugs. | Good |
+| global_JS.js     | Missing semicolon.       |   Fixed |
+| script.js | No bugs.      | Good |
+| snake2.0.js |  Missing semicolon.     |   Fixed |
 
 
 ### HTML Validator
@@ -257,7 +257,7 @@ This was tested to make sure the JavaScript code did not have any major unnotice
 ### CSS Validator
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| style.css     | No Bugs. | Good |
+| style.css     | No bugs. | Good |
 
 
 #### Remaining issues
