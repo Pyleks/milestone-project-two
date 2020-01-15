@@ -14,20 +14,21 @@ function sendMail(contactForm) {
     emailjs.send("gmail", "blockworm_feedback", templateParams)
         .then(
             function(response) {
-                console.log("SUCCESS", response);
-                $(".feedback_button").text("Thank you");
-                $(".feedback_button").removeClass("btn-secondary");
-                $(".feedback_button").addClass("white_cl");
-                $(".feedback_button").addClass("dark_green_bg");
-
+                if(response) {
+                    $(".feedback_button").text("Thank you");
+                    $(".feedback_button").removeClass("btn-secondary");
+                    $(".feedback_button").addClass("white_cl");
+                    $(".feedback_button").addClass("dark_green_bg");
+                }
             },
             // Change the color of button to red, with "Try Again Later"
             function(error) {
-                console.log("FAILED", error);
-                $(".feedback_button").text("Try Again Later");
-                $(".feedback_button").removeClass("btn-secondary");
-                $(".feedback_button").addClass("white_cl");
-                $(".feedback_button").addClass("red_bg");
+                if(error) {
+                    $(".feedback_button").text("Try Again Later");
+                    $(".feedback_button").removeClass("btn-secondary");
+                    $(".feedback_button").addClass("white_cl");
+                    $(".feedback_button").addClass("red_bg");
+                }
             }
         );
     return false;  // To block from loading a new page
