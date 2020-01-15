@@ -205,9 +205,9 @@ scoring bord must collect the scores.
 ### Responsiveness
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | One issue with scaling was found, where it did not remove desktop icons in time. | No |
-| Feedback Page     | The form did not scale correct from 577px width.      |   No |
-| Game Page | Above 1025px width the game scaled incorrectly and removing the controls too early     |    No |
+| Landing Page     | One issue with scaling was found, where it did not remove desktop icons in time. | Not Fixed |
+| Feedback Page     | The form did not scale correct from 577px width.      | Not Fixed |
+| Game Page | Above 1025px width the game scaled incorrectly and removing the controls too early     | Not Fixed |
 
 ### Interactivity
 | Page        | Bugs           | Status  |
@@ -221,8 +221,8 @@ scoring bord must collect the scores.
 |:------------- |:-------------| :-----:|
 | Landing Page     | No Bugs | Good |
 | Feedback Page     | No Bugs       |   Good |
-| Game Page | If the player continue playing, the nickname and score outgrow the scoreboard.      |    No |
-| Game Page | The scores are not sorted correctly from highest to lowest score.      |    No |
+| Game Page | If the player continue playing, the nickname and score outgrow the scoreboard.      | Not Fixed |
+| Game Page | The scores are not sorted correctly from highest to lowest score.      |    Not Fixed |
 | Game Page | Bug with snake moving into it's own body when moving from right to left, left to right, up to down or down to up.      |    Fixed |
 
 ### HTML Validator
