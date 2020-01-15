@@ -205,7 +205,7 @@ scoring bord must collect the scores.
 ### Responsiveness
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
-| Landing Page     | One issue with scaling was found, where it did not remove desktop icons in time. | Not Fixed |
+| Landing Page     | One issue with scaling was found, where it did not remove desktop icons in time. | Fixed |
 | Feedback Page     | The form did not scale correct from 577px width.      | Not Fixed |
 | Game Page | Above 1025px width the game scaled incorrectly and removing the controls too early     | Not Fixed |
 | Game Page | On some smaller desktop screens the canvas becomes too big     | Not Fixed |
