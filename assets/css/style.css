@@ -59,7 +59,7 @@ body {
 }
 
 .white_cl {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .red_cl {
@@ -100,10 +100,6 @@ body {
 .target_border {
     border: 6px solid !important;
     color: #006400;
-}
-
-.red_button {
-    background-color: #ff0000 !important;
 }
 /************ Navigation Bar ************/
 .col_box_size {
