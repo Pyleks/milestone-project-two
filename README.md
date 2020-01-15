@@ -241,6 +241,8 @@ scoring bord must collect the scores.
 |:------------- |:-------------| :-----:|
 | style.css     | No Bugs. | Good |
 
+> All remaining issues that have not been fixed, was due to lack of time to fix them, or lack of knowledge on how to fix them in time.
+
 ## Deployment
 Steps to deploy the website from GitHub.
 1. Go to [GitHub](https://github.com/Pyleks).
