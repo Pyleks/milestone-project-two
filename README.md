@@ -282,7 +282,7 @@ Which was modified version from the original [meyerweb](https://meyerweb.com/eri
 
 #### Looping Text
 This code was acquired from [stackoverflow](https://stackoverflow.com/questions/50495797/how-to-loop-changing-text-with-html-js)  
-And modified for my project.
+and modified for my project.
 
 #### Icons
 The 3 icons is from [Font Awesome](https://fontawesome.com/).   
