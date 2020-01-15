@@ -71,7 +71,8 @@ what they see and where to go the moment they open the website.
 - Updating the method for handling user points.
 - Link the game up to a online database so players can fight against each other to get the best score
 
-
+## Demo
+Try the game here: https://pyleks.github.io/milestone-project-two/
 
 ## Technologies
 
@@ -298,8 +299,5 @@ The font used on this website is from [Google Fonts](https://fonts.google.com/) 
 
 These 2 images are used for logos and game background.
 
-
-## Demo
-Try the game here: https://pyleks.github.io/milestone-project-two/
 
 
