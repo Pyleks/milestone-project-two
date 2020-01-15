@@ -279,8 +279,13 @@ Was only possible thanks to [am.i.responsive](http://ami.responsivedesign.is/)
 Was acquired from github account from [DavidWells](https://gist.github.com/DavidWells/18e73022e723037a50d6)
 Which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/)
 
+#### Looping Text
+This code was acquired from [stackoverflow](https://stackoverflow.com/questions/50495797/how-to-loop-changing-text-with-html-js)  
+And modified for my project
 
-
+#### Icons
+The 3 icons is from Font Awesome
+![alt text](assets/images/icons.png)
 
 ## Licensed and purchased Images 
 
