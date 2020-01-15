@@ -315,6 +315,9 @@ The 3 icons is from [Font Awesome](https://fontawesome.com/).
 #### Font
 The font used on this website is from [Google Fonts](https://fonts.google.com/) from font family [Acme](https://fonts.google.com/?query=Acme).
 
+#### Email API
+This is based heavily on the mailJS that we learned from code institute lecture, but is customized and slightly different
+then the one in the course.
 
 ## Licensed and purchased Images 
 
