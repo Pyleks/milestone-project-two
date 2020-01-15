@@ -1,4 +1,5 @@
 // Stores the player nickname in local storage to be used in the game
+// When the player have typed in a username and clicked Play
 $(document).ready(function(){
     ($("#playButton").click(function() {
         let myName = $("input").val();
@@ -25,8 +26,8 @@ $(document).ready(function(){
 
     });
 
-    // Rotates through an array to display different rules to users on landing page.
-    let example = ['Experiment with colors', 'Walls do not hurt', 'Ready yet???', 'Remember to eat the apples'];
+    // Rotates through an array to display different fact to users on landing page.
+    let example = ['Each "apple" is different', 'Walls do not hurt', 'Ready yet???', 'Remember to eat the "apples"'];
 
     textSequence(0);
     function textSequence(i) {
