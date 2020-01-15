@@ -284,7 +284,7 @@ Was only possible thanks to [am.i.responsive](http://ami.responsivedesign.is/).
 
 #### CSS Reset
 Was acquired from github account from [DavidWells](https://gist.github.com/DavidWells/18e73022e723037a50d6)
-Which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/).
+which was modified version from the original [meyerweb](https://meyerweb.com/eric/tools/css/reset/).
 
 #### Looping Text
 This code was acquired from [stackoverflow](https://stackoverflow.com/questions/50495797/how-to-loop-changing-text-with-html-js)  
