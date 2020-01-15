@@ -99,9 +99,9 @@ Try the game here: https://pyleks.github.io/milestone-project-two/
 ### Graphic design tools
 | Tools  | Usage |
 | :------------- | :------------- |
-| [Krita](https://krita.org/en/)  | For designing all graphic content  |
-| [Paint 3D](https://www.microsoft.com/en-ie/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)  | Pre-work on graphic content  |
-| [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint)  | Rough graphic content  |
+| [Krita](https://krita.org/en/)  | For designing all graphic content.  |
+| [Paint 3D](https://www.microsoft.com/en-ie/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)  | Pre-work on graphic content.  |
+| [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint)  | Rough graphic content.  |
 
 ### API
 For feedback I am using
