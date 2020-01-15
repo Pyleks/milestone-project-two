@@ -20,19 +20,6 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/************ background ************/
-/*.background {*/
-/*    !* The image used *!*/
-/*    background-image: url("../images/background.png");*/
-
-/*    !* Full height *!*/
-/*    height: 100%;*/
-
-/*    !* Center and scale the image nicely *!*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
 
 
 /************ Global Font ************/
@@ -259,7 +246,6 @@ a:hover {
     height: 100%;
     transition: .5s ease;
     opacity:0;
-    color: white;
     font-size: 20px;
     /*padding: 20px;*/
     text-align: center;
@@ -275,7 +261,7 @@ a:hover {
     font-size: 3rem;
 }
 hr {
-    border-top: 2px solid white ;
+    border-top: 2px solid #ffffff ;
 }
 
 .final_nick_style {
@@ -314,8 +300,8 @@ img {
 
 /************ Game Styling ************/
 canvas {
-    border: 1px solid white;
-    background-color: black;
+    border: 1px solid #ffffff;
+    background-color: #000000;
     display: block;
     width: 100%;
     height: auto;
@@ -331,7 +317,7 @@ canvas {
 .control-boxes {
     height: 50px;
     width: 50px;
-    background-color: #555;
+    background-color: #555555;
 }
 
 .control_display {
@@ -369,7 +355,6 @@ canvas {
     .control-boxes {
         height: 90px;
         width: 90px;
-        background-color: #555;
     }
     .update_nick {
         font-size: 3rem;
@@ -438,7 +423,6 @@ canvas {
     .control-boxes {
         height: 70px;
         width: 70px;
-        background-color: #555;
     }
     .player_form_style {
         width: 40%;
@@ -608,7 +592,7 @@ canvas {
     .control-boxes {
         height: 50px;
         width: 50px;
-        background-color: #555;
+
     }
     .update_nick {
         font-size: 2rem;
