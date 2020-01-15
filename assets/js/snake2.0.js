@@ -271,6 +271,11 @@ document.addEventListener('keydown', function(e) {
 
 
 // Mobile controls A.A & Aaron Sinnott
+// When clicking on the arrows, they light up yellow
+// When stopping to click, the yellow goes away.
+
+
+// UP Arrow
 $('#top').on({ 'touchstart' : function(){
     moveUp(snake);
     $(this).addClass("yellow_bg")
@@ -279,7 +284,7 @@ $('#top').on({ 'touchend' : function(){
     $(this).removeClass("yellow_bg")
 }});
 
-
+// LEFT Arrow
 $('#left').on({ 'touchstart' : function(){
     moveLeft(snake);
     $(this).addClass("yellow_bg")
@@ -288,6 +293,7 @@ $('#left').on({ 'touchend' : function(){
     $(this).removeClass("yellow_bg")
 }});
 
+// RIGHT Arrow
 $('#right').on({ 'touchstart' : function(){
     moveRight(snake);
     $(this).addClass("yellow_bg")
@@ -296,6 +302,7 @@ $('#right').on({ 'touchend' : function(){
     $(this).removeClass("yellow_bg")
 }});
 
+//DOWN Arrow
 $('#down').on({ 'touchstart' : function(){
     moveDown(snake);
     $(this).addClass("yellow_bg")
