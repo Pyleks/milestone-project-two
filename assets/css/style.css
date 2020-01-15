@@ -334,13 +334,6 @@ canvas {
     font-size: 3rem;
 }
 
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:40px;   /* Height of the footer */
-
-}
 
 /************ Media Queries ************/
 @media (min-width: 1025px) {
