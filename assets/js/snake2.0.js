@@ -51,6 +51,7 @@ let snake = {
     maxCells: 4
 };
 // Random Apple Placement at start of game A.A
+// Acquired and modified from Code Explained (See README)
 let redApple = {
     x : Math.floor(Math.random()*18+1) * grid,
     y : Math.floor(Math.random()*11+3) * grid
