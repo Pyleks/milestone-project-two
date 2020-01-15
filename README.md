@@ -287,6 +287,10 @@ And modified for my project
 The 3 icons is from Font Awesome   
 ![alt text](assets/images/icons.png)
 
+#### Font
+The font used on this website is from [Google Fonts](https://fonts.google.com/) from font family [Acme](https://fonts.google.com/?query=Acme).
+
+
 ## Licensed and purchased Images 
 
 [Snake Image ](https://www.shutterstock.com/image-vector/earth-worm-cartoon-outlined-character-black-452659024)  
@@ -298,7 +302,4 @@ These 2 images are used for logos and game background.
 ## Demo
 Try the game here: https://pyleks.github.io/milestone-project-two/
 
-
-
-Repo: https://github.com/Pyleks/milestone-project-two.git
 
