@@ -261,13 +261,13 @@ Steps to deploy the website from GitHub.
 
 ## Credits
 #### Snake Game Origin Code
-This game was only possible thanks to GitHub user **Straker**.   
+This game was only possible thanks to GitHub user [Straker](https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4)     
 The code have been marked with A.A for all code done by me.
-https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4
+
 
 #### Honorary mention
-Snake game made by YouTuber **Code Explained** provided some crucial mathematical randomize in the snake code
-https://www.youtube.com/watch?v=9TcU2C1AACw
+Snake game made by YouTuber [Code Explained](https://www.youtube.com/watch?v=9TcU2C1AACw) provided some crucial mathematical randomize in the snake code
+
 
 #### Touch Screen Controls
 This was improved upon immensely by Aaron Sinnott (Mentor)
