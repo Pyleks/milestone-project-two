@@ -17,7 +17,7 @@ let count = 0;
 let score = 0;
 let usernameArray = [];
 let scoreArray =[];
-let index = 0;
+
 
 
 // Imported Graphics A.A
@@ -66,10 +66,6 @@ let yellowApple = {
     y : Math.floor(Math.random()*11+3) * grid
 };
 
-let greenApple = {
-    x : Math.floor(Math.random()*18+1) * grid,
-    y : Math.floor(Math.random()*11+3) * grid
-};
 
 
 // Different apples provides different length A.A
@@ -77,16 +73,15 @@ let i;
 function blueappleScore() {
     for (i = 0; i < 2; i++) {
         snake.maxCells++;
-    }
-    let random_number = (getRandomInt(0, 1));
-    if (random_number == 1) {
-        console.log(random_number)
+        score ++;
+
     }
 }
 
 function yellowappleScore() {
     for (i = 0; i < 5; i++) {
         snake.maxCells++;
+        score ++;
     }
 }
 
@@ -94,17 +89,9 @@ function yellowappleScore() {
 function addScore() {
     usernameArray.push([(localStorage.getItem("favoriteName"))]);
     scoreArray.push(score);
-    console.log(usernameArray[usernameArray.length -1]);
     let last_score = scoreArray[scoreArray.length - 1];
     let lastNick = usernameArray[usernameArray.length -1];
 
-    for(index = 0; index < usernameArray.length; index++) {
-        console.log(usernameArray[index])
-    }
-    for(i = 0; i < scoreArray.length; i++) {
-        console.log(scoreArray[i]);
-
-    }
 
     $(".final_nick_style").append("<br>" + `<p>${lastNick}</p>`);
     $(".final_score_style").append("<br>" + `<p>${last_score}</p>`);
@@ -175,7 +162,6 @@ function loop() {
             // Each block adds another apple to the Canvas A.A
         } else if (cell.x === blueApple.x && cell.y === blueApple.y) {
             blueappleScore();
-            score ++;
             blueApple.x = getRandomInt(0, 25) * grid;
             blueApple.y = getRandomInt(0, 25) * grid;
 
