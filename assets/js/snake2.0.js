@@ -16,7 +16,7 @@ let count = 0;
 // A.A
 let score = 0;
 let usernameArray = [];
-let scoreArray =[];
+let scoreArray = [];
 
 
 
@@ -86,13 +86,17 @@ function yellowappleScore() {
 }
 
 // Game Over - Add Score A.A
+// Takes the username from localStoreage
+// Pushes the score into an array.
+// Stores the last score and username in an array A.A
 function addScore() {
     usernameArray.push([(localStorage.getItem("favoriteName"))]);
     scoreArray.push(score);
     let last_score = scoreArray[scoreArray.length - 1];
     let lastNick = usernameArray[usernameArray.length -1];
 
-
+// creates a new line, and add inn a paragraph with username and score
+// For each attempt in the game A.A.
     $(".final_nick_style").append("<br>" + `<p>${lastNick}</p>`);
     $(".final_score_style").append("<br>" + `<p>${last_score}</p>`);
 
