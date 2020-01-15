@@ -47,50 +47,43 @@
 <section class="container heading">
     <div class="row">
         <div class="col">
-            <h1 class="h1_size h1_placement_game text-center " id="game_heading"><span
-                    class="heading_border dark_green_cl">Block</span>Worm Adventures</h1>
+            <h1 class="h1_size h1_placement text-center"><span class="heading_border dark_green_cl">Block</span>Worm
+                Adventures</h1>
         </div>
     </div>
 </section>
 
 <!--Nickname Location-->
-<section class="player_info">
-    <div class="d-flex mt-3 justify-content-center">
-        <div class="card card-custom mx-2 mb-3 remove_border">
-            <p class="display_config update_nick light_blue-bg"></p>
-
-        </div>
+<section class="player_info d-flex mt-3 justify-content-center">
+    <div class="card card-custom mx-2 mb-3 remove_border">
+        <p class="display_config update_nick light_blue-bg"></p>
     </div>
 </section>
 
 <!-- Game Canvas placement and Size -->
-<section class="snake">
-    <div class="container game_container">
-        <div class="col-auto text-center">
-            <canvas id="snake_game" width="800" height="800"></canvas>
-            <div class="overlay">
-                <div class="container">
-                    <h2 class="red_cl gameover_style">GAME OVER</h2>
-                    <h3 class="text-center top_score_style">Top Score</h3>
-                    <hr class="white_cl">
-                    <div class="row">
-                        <div class="col-4">
-                            <p class="final_nick_style">Nickname</p>
-                        </div>
-                        <div class="col-4">
-                            <a type="html/text" href="#"
-                               class="btn center-block play_againButton dark_green_bg white_cl">Play Again</a>
-                        </div>
-                        <div class="col-4">
-                            <p class="final_score_style">Score</p>
-                        </div>
+<section class="snake container game_container">
+    <div class="col-auto text-center">
+        <canvas id="snake_game" width="800" height="800"></canvas>
+        <div class="overlay">
+            <div class="container">
+                <h2 class="red_cl gameover_style">GAME OVER</h2>
+                <h3 class="text-center top_score_style">Top Score</h3>
+                <hr class="white_cl">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="final_nick_style">Nickname</p>
                     </div>
-
-
+                    <div class="col-4">
+                        <a type="html/text" href="#"
+                           class="btn center-block play_againButton dark_green_bg white_cl">Play Again</a>
+                    </div>
+                    <div class="col-4">
+                        <p class="final_score_style">Score</p>
+                    </div>
                 </div>
             </div>
-            <div class="top-control"></div>
         </div>
+        <div class="top-control"></div>
     </div>
 </section>
 
@@ -148,6 +141,5 @@
 <script src="assets/libraries/bootstrap.4.4.1.min.js"></script>
 <script src="assets/js/snake2.0.js"></script>
 <script src="assets/js/global_JS.js"></script>
-
 </body>
 </html>
