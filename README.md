@@ -285,7 +285,7 @@ This code was acquired from [stackoverflow](https://stackoverflow.com/questions/
 And modified for my project.
 
 #### Icons
-The 3 icons is from [Font Awesome](https://fontawesome.com/).
+The 3 icons is from [Font Awesome](https://fontawesome.com/).   
 ![alt text](assets/images/icons.png)
 
 #### Font
