@@ -255,21 +255,21 @@ document.addEventListener('keydown', function(e) {
 
     // Up arrow key
     if (e.which === 38) {
-        moveUp(snake)
+        moveUp(snake);
     }
 
     // Left arrow key
     else if (e.which === 37) {
-        moveLeft(snake)
+        moveLeft(snake);
     }
 
     // Right arrow key
     else if (e.which === 39) {
-        moveRight(snake)
+        moveRight(snake);
     }
     // Down arrow key
     else if (e.which === 40) {
-        moveDown(snake)
+        moveDown(snake);
     }
 
 });
@@ -283,37 +283,37 @@ document.addEventListener('keydown', function(e) {
 // UP Arrow
 $('#top').on({ 'touchstart' : function(){
     moveUp(snake);
-    $(this).addClass("yellow_bg")
+    $(this).addClass("yellow_bg");
 }});
 $('#top').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg")
+    $(this).removeClass("yellow_bg");
 }});
 
 // LEFT Arrow
 $('#left').on({ 'touchstart' : function(){
     moveLeft(snake);
-    $(this).addClass("yellow_bg")
+    $(this).addClass("yellow_bg");
 }});
 $('#left').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg")
+    $(this).removeClass("yellow_bg");
 }});
 
 // RIGHT Arrow
 $('#right').on({ 'touchstart' : function(){
     moveRight(snake);
-    $(this).addClass("yellow_bg")
+    $(this).addClass("yellow_bg");
 }});
 $('#right').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg")
+    $(this).removeClass("yellow_bg");
 }});
 
 //DOWN Arrow
 $('#down').on({ 'touchstart' : function(){
     moveDown(snake);
-    $(this).addClass("yellow_bg")
+    $(this).addClass("yellow_bg");
 }});
 $('#down').on({ 'touchend' : function(){
-    $(this).removeClass("yellow_bg")
+    $(this).removeClass("yellow_bg");
 }});
 
 

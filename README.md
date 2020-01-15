@@ -117,6 +117,7 @@ Wireframe tool is
 - Responsiveness
 - Interactivity
 - Logic
+- JSHint
 - HTML Validator
 - CSS Validator
 
@@ -201,6 +202,14 @@ scoring bord must collect the scores.
 - Tried clicking new game.
 - Tried to move the snake outside of the border on each side, and top/down.
 
+### JSHint Test
+This was tested to make sure the JavaScript code did not have any major unnoticed flaws.
+- Copy/Pasted email.js
+- Copy/Pasted global_JS.js
+- Copy/Pasted script.js
+- Copy/Pasted snake2.0.js
+
+
 ## Testing Summary
 
 ### Responsiveness
@@ -228,6 +237,15 @@ scoring bord must collect the scores.
 | Game Page | If the player continue playing, the nickname and score outgrow the scoreboard.      | Not Fixed |
 | Game Page | The scores are not sorted correctly from highest to lowest score.      |    Not Fixed |
 | Game Page | Bug with snake moving into it's own body when moving from right to left, left to right, up to down or down to up.      |    Fixed |
+
+### JSHint
+| Page        | Bugs           | Status  |
+|:------------- |:-------------| :-----:|
+| email.js     | No Bugs. | Good |
+| global_JS.js     | Missing semicolon       |   Fixed |
+| script.js | No Bugs.      | Good |
+| snake2.0.js |  Missing semicolon     |   Fixed |
+
 
 ### HTML Validator
 | Page        | Bugs           | Status  |
