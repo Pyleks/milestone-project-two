@@ -5,7 +5,6 @@ $(document).ready(function(){
         let myName = $("input").val();
         // Check for condition if Nickname is too long
         if(myName.length > 8) {
-            console.log("Too much");
             $(".max_chara_display").css("color", "yellow");
             $(".max_chara_display").text("Maximum 8 Characters");
 
@@ -16,7 +15,6 @@ $(document).ready(function(){
             // If passes check it get stored and transferred to the next page.
         }else {
             localStorage.setItem("favoriteName", myName);
-            console.log(myName);
             window.location.href = 'game.html';
         }
     }));
