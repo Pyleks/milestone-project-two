@@ -78,7 +78,6 @@ function blueappleScore() {
 
     }
 }
-
 function yellowappleScore() {
     for (i = 0; i < 5; i++) {
         snake.maxCells++;
@@ -278,8 +277,6 @@ document.addEventListener('keydown', function(e) {
 // Mobile controls A.A & Aaron Sinnott
 // When clicking on the arrows, they light up yellow
 // When stopping to click, the yellow goes away.
-
-
 // UP Arrow
 $('#top').on({ 'touchstart' : function(){
     moveUp(snake);
