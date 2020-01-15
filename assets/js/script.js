@@ -29,7 +29,6 @@ $(document).ready(function(){
 
     textSequence(0);
     function textSequence(i) {
-
         if (example.length > i) {
             setTimeout(function() {
                 document.getElementById("slideshow").innerHTML = example[i];
@@ -39,7 +38,5 @@ $(document).ready(function(){
         } else if (example.length == i) { // Loop
             textSequence(0);
         }
-
     }
-
 });
